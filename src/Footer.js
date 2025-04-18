@@ -26,9 +26,10 @@ const Footer = () => {
           <a href="https://wa.me/254799090598" target="_blank" rel="noopener noreferrer">
             <i className="fab fa-whatsapp"></i>
           </a>
-          <a href="https://www.facebook.com/Kaheni Satima" target="_blank" rel="noopener noreferrer">
-            <i className="fab fa-facebook"></i>
-          </a>
+          <a href="https://www.facebook.com/kahenisatima" target="_blank" rel="noopener noreferrer">
+  <i className="fab fa-facebook"></i>
+</a>
+
         </div>
 
         <div className="contact-info">

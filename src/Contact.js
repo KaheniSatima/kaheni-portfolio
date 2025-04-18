@@ -44,7 +44,10 @@ const Contact = () => {
 </a>
 
             <a href="https://github.com/KaheniSatima" target="_blank" rel="noopener noreferrer">GitHub</a>
-            <a href="https://facebook.com/your-facebook-id" target="_blank" rel="noopener noreferrer">Facebook</a>
+            <a href="https://www.facebook.com/kahenisatima" target="_blank" rel="noopener noreferrer">
+  <i className="fab fa-facebook"></i>
+</a>
+
           </div>
         </div>
       </div>
