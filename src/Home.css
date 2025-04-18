@@ -1,0 +1,70 @@
+/* Home.css */
+
+.home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f7f7f7;
+    padding: 40px;
+}
+
+.home-content {
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 40px;
+    max-width: 800px;
+    width: 100%;
+    text-align: center;
+}
+/* Profile image styling */
+.about-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* Make image round */
+    border: 4px solid #f39c12; /* Golden border */
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.home-title {
+    font-size: 2.5rem;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.home-description {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.home-introduction, .home-goal {
+    font-size: 1.1rem;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.home-btn {
+    padding: 12px 24px;
+    font-size: 1.1rem;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-transform: uppercase;
+}
+
+.home-btn:hover {
+    background-color: #0056b3;
+}
+
+
+footer {
+    margin-top: auto; /* Push the footer to the bottom */
+}

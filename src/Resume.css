@@ -1,0 +1,44 @@
+/* Styling for the Resume section */
+.resume {
+    background-color: #f1f5f9;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+    font-family: 'Arial', sans-serif;
+}
+
+.resume h2 {
+    font-size: 2rem;
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.resume p {
+    font-size: 1.1rem;
+    color: #34495e;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.download-link {
+    display: inline-block;
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: #3498db;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.download-link:hover {
+    background-color: #2980b9;
+    transform: translateY(-2px);
+}
+
+.download-link:active {
+    background-color: #2471a3;
+    transform: translateY(0);
+}

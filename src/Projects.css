@@ -1,0 +1,58 @@
+.projects-page {
+    padding: 40px 20px;
+    background-color: #fdfdfd;
+    min-height: 100vh;
+}
+
+.projects-title {
+    text-align: center;
+    font-size: 2.2rem;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+    padding: 0 20px 60px;
+}
+
+.project-card {
+    background: #fff;
+    border-radius: 16px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-6px);
+}
+
+.project-icon {
+    font-size: 2.8rem;
+    color: #007bff;
+    margin-bottom: 15px;
+}
+
+
+
+.github-link {
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 0.95rem;
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.github-link i {
+    margin-right: 6px;
+}
+
+.github-link:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
