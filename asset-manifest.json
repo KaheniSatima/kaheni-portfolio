@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/kaheni-portfolio/static/css/main.69566585.css",
-    "main.js": "/kaheni-portfolio/static/js/main.fb9a78d9.js",
+    "main.css": "/kaheni-portfolio/static/css/main.1ca5c8c4.css",
+    "main.js": "/kaheni-portfolio/static/js/main.0df94a09.js",
     "static/js/453.763c59ea.chunk.js": "/kaheni-portfolio/static/js/453.763c59ea.chunk.js",
     "static/media/homepage.jpg": "/kaheni-portfolio/static/media/homepage.b25ad8fb6c0e4362bf5f.jpg",
     "static/media/experience.jpeg": "/kaheni-portfolio/static/media/experience.8e0c50cdaa8f3d932d6f.jpeg",
@@ -10,12 +10,12 @@
     "static/media/passion.jpeg": "/kaheni-portfolio/static/media/passion.dd826679e7368afade01.jpeg",
     "static/media/skills.jpeg": "/kaheni-portfolio/static/media/skills.34027068c49fa1f7ff99.jpeg",
     "index.html": "/kaheni-portfolio/index.html",
-    "main.69566585.css.map": "/kaheni-portfolio/static/css/main.69566585.css.map",
-    "main.fb9a78d9.js.map": "/kaheni-portfolio/static/js/main.fb9a78d9.js.map",
+    "main.1ca5c8c4.css.map": "/kaheni-portfolio/static/css/main.1ca5c8c4.css.map",
+    "main.0df94a09.js.map": "/kaheni-portfolio/static/js/main.0df94a09.js.map",
     "453.763c59ea.chunk.js.map": "/kaheni-portfolio/static/js/453.763c59ea.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.69566585.css",
-    "static/js/main.fb9a78d9.js"
+    "static/css/main.1ca5c8c4.css",
+    "static/js/main.0df94a09.js"
   ]
 }
