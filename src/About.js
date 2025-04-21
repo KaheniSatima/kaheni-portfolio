@@ -43,6 +43,7 @@ const About = () => {
 
         {/* Skills Section */}
         <div className="skills-section skills-container">
+        <h3 className="skills-title">Technical & Professional Skills</h3>
   <div className="skills-row">
     {/* Left: Images */}
     <div className="image-column">
@@ -52,7 +53,6 @@ const About = () => {
 
     {/* Right: Skills content */}
     <div className="skills-content">
-      <h3 className="skills-title">Technical & Professional Skills</h3>
       <ul className="skills-list">
         <li><strong>Programming & Development:</strong> OOP, SDLC, Agile, Git, REST APIs</li>
         <li><strong>Web Development:</strong> HTML, CSS, JavaScript, React.js, Node.js, WordPress</li>
@@ -106,6 +106,7 @@ const About = () => {
       {/* Passions & Interests Section */}
 <div className="about-section passions-section">
   <div className="container">
+  <h3 className="section-heading">Passions & Interests</h3>
     <div className="section-row">
       {/* Left: Image */}
       <div className="section-image-wrapper">
@@ -114,7 +115,6 @@ const About = () => {
 
       {/* Right: Heading on top, then description */}
       <div className="section-content">
-        <h3 className="section-heading">Passions & Interests</h3>
         <p className="about-description">
   In addition to my studies, I am passionate about staying up to date with the latest tech trends, especially in AI, and I enjoy working on side projects in my free time. Exploring how artificial intelligence is transforming industries continues to inspire my learning and creativity.
 </p>

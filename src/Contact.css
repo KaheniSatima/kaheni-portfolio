@@ -1,11 +1,10 @@
 .contact-page {
-    padding: 2rem;
-    max-width: 1000px;
-    margin: auto;
-    font-family: Arial, sans-serif;
-    background-color: #695555c1;
-  }
-  
+  width: 100vw;
+  min-height: 100vh;
+  background: #695555c1; /* Soft light background */
+  padding: 60px 20px;
+  box-sizing: border-box;
+}
   .contact-page h2 {
     font-size: 2rem;
     text-align: center;
@@ -18,8 +17,15 @@
   .contact-container {
     display: flex;
     flex-wrap: wrap;
-    gap: 2rem;
-    margin-top: 2rem;
+    justify-content: space-between;
+    background-color: #695555c1;
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto; /* Center horizontally */
+    box-sizing: border-box;
   }
   
   .contact-form {
@@ -49,6 +55,8 @@
   
   .contact-details {
     flex: 1;
+    min-width: 300px;
+  margin: 70px;
   }
   
   .social-links a {
