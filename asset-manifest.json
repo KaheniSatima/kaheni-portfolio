@@ -1,23 +1,21 @@
 {
   "files": {
-    "main.css": "/kaheni-portfolio/static/css/main.a11c05de.css",
-    "main.js": "/kaheni-portfolio/static/js/main.592d8c01.js",
+    "main.css": "/kaheni-portfolio/static/css/main.12586c14.css",
+    "main.js": "/kaheni-portfolio/static/js/main.541aa217.js",
     "static/js/453.763c59ea.chunk.js": "/kaheni-portfolio/static/js/453.763c59ea.chunk.js",
-    "static/media/homepage.jpg": "/kaheni-portfolio/static/media/homepage.b25ad8fb6c0e4362bf5f.jpg",
-    "static/media/experience.jpeg": "/kaheni-portfolio/static/media/experience.b01c0876a1b1029c4848.jpeg",
-    "static/media/education.jpeg": "/kaheni-portfolio/static/media/education.066e68b87e5a40221ce5.jpeg",
-    "static/media/passion.jpeg": "/kaheni-portfolio/static/media/passion.5cd07511f06a3520a718.jpeg",
-    "static/media/goals.jpeg": "/kaheni-portfolio/static/media/goals.eeed2632386eaa6ac66d.jpeg",
-    "static/media/skills.jpeg": "/kaheni-portfolio/static/media/skills.a2de6cacc09443a2298b.jpeg",
-    "static/media/homepage.jpeg": "/kaheni-portfolio/static/media/homepage.6c2839a0361fac1b2a64.jpeg",
-    "static/media/background.jpeg": "/kaheni-portfolio/static/media/background.7b010eaa639dca4fbc04.jpeg",
+    "static/media/prize.jpg": "/kaheni-portfolio/static/media/prize.e4999ee0c4b31b6d5291.jpg",
+    "static/media/kcse.jpg": "/kaheni-portfolio/static/media/kcse.1df0cf4f393f911b8738.jpg",
+    "static/media/letter.jpg": "/kaheni-portfolio/static/media/letter.1fca08291753edf48d64.jpg",
+    "static/media/kaheni.jpg": "/kaheni-portfolio/static/media/kaheni.d6c4c490b13adab4e053.jpg",
+    "static/media/contact.jpeg": "/kaheni-portfolio/static/media/contact.b6cf89330347cfe16b56.jpeg",
+    "static/media/background.jpeg": "/kaheni-portfolio/static/media/background.2e508c3efe2c82734284.jpeg",
     "index.html": "/kaheni-portfolio/index.html",
-    "main.a11c05de.css.map": "/kaheni-portfolio/static/css/main.a11c05de.css.map",
-    "main.592d8c01.js.map": "/kaheni-portfolio/static/js/main.592d8c01.js.map",
+    "main.12586c14.css.map": "/kaheni-portfolio/static/css/main.12586c14.css.map",
+    "main.541aa217.js.map": "/kaheni-portfolio/static/js/main.541aa217.js.map",
     "453.763c59ea.chunk.js.map": "/kaheni-portfolio/static/js/453.763c59ea.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a11c05de.css",
-    "static/js/main.592d8c01.js"
+    "static/css/main.12586c14.css",
+    "static/js/main.541aa217.js"
   ]
 }
