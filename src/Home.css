@@ -19,7 +19,7 @@
 
 /* Central container over the background */
 .home-container {
-    background-color: rgba(30, 124, 248, 0.011); /* Slight transparency for readability */
+    background-color: rgba(2, 16, 35, 0.338); /* Slight transparency for readability */
     padding: 40px;
     border-radius: 12px;
     max-width: 850px;
@@ -55,7 +55,7 @@
 .home-btn {
     margin-top: 20px;
     padding: 12px 24px;
-    background-color: #007bff;
+    background-color: #fb0c0cec;
     color: white;
     border: none;
     border-radius: 6px;
@@ -68,7 +68,64 @@
     background-color: #0056b3;
 }
 
-
 footer {
     margin-top: auto; /* Push the footer to the bottom */
+}
+
+/* ===========================
+   Achievements Section Styles
+   =========================== */
+.achievements-section {
+  padding: 60px 20px;
+  text-align: center;
+  background-color: #121212f3; 
+}
+
+.section-title {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.section-intro {
+  font-size: 1.1rem;
+  color: white;
+  margin-bottom: 40px;
+}
+
+.image-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+.image-card {
+  background-color: #121212f3; 
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  padding: 20px;
+  width: 280px;
+  transition: transform 0.3s ease;
+}
+
+.image-card:hover {
+  transform: translateY(-5px);
+}
+
+.image-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin: 15px 0;
+}
+
+.image-card h3 {
+  color: white;
+  font-size: 1.2rem;
+}
+
+.image-card p {
+  color: white;
+  font-size: 0.95rem;
 }

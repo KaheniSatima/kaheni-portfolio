@@ -1,45 +1,138 @@
-/* Navbar.css */
-
-/* General Navbar styles */
-.navbar {
-    background-color: #333; /* Dark background */
-    padding: 10px 0;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+/* General Reset */
+* {
+  margin: 0;
+  box-sizing: border-box;
 }
 
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding-top: 70px; /* ✅ Correct padding to avoid overlap */
+}
+
+/* Navbar Container */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #141414;
+  padding: 10px 20px;
+  color: white;
+  z-index: 1000;
+}
+
+/* Left section: logo and title */
+.navbar-left {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.navbar-logo {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.navbar-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* Hamburger menu icon */
+.navbar-toggle {
+  display: none;
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+
+/* Navigation list */
 .nav-list {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    margin: 0;
-    padding: 0;
+  display: flex;
+  list-style: none;
+  gap: 20px;
 }
 
 .nav-item {
-    margin: 0 20px;
+  display: flex;
+  align-items: center;
 }
 
 .nav-link {
-    text-decoration: none;
-    color: #fff; /* White text */
-    font-size: 18px;
-    font-weight: bold;
-    transition: color 0.3s ease;
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+  transition: color 0.3s ease;
 }
 
-/* Hover effect */
 .nav-link:hover {
-    color: #f39c12; /* Golden color on hover */
-    text-decoration: underline;
+  color: #00bcd4;
 }
 
-/* Responsive styles */
-@media (max-width: 768px) {
-    .nav-list {
-        flex-direction: column;
-    }
+/* Social icons container */
+.nav-icons {
+  display: flex;
+  gap: 12px;
+  margin-left: 10px;
+}
 
-    .nav-item {
-        margin: 10px 0;
-    }
+.nav-icons a {
+  color: white;
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+}
+
+.nav-icons a:hover {
+  color: #00bcd4;
+}
+
+/* Contact + Social Group */
+.contact-group {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .navbar {
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .navbar-toggle {
+    display: block;
+    color: white;
+  }
+
+  .nav-list {
+    width: 100%;
+    flex-direction: column;
+    gap: 10px;
+    display: none;
+    margin-top: 10px;
+  }
+
+  .nav-list.active {
+    display: flex;
+  }
+
+  .nav-item {
+    justify-content: flex-start;
+  }
+
+  .contact-group {
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .nav-icons {
+    gap: 10px;
+  }
 }

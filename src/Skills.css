@@ -1,13 +1,29 @@
 .skills-section {
     padding: 40px 20px;
-    background-color: #695555c1;
+    background-color: #121212f3;
     text-align: center;
 }
 
 .skills-title {
     font-size: 2rem;
     margin-bottom: 30px;
-    color: #333;
+    color: white;
+}
+
+.skill-description {
+  font-size: 0.9rem;
+  color: white;
+  margin-bottom: 0.5rem;
+}
+
+.skills-subtitle {
+  font-size: 1rem;
+  color: white;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .skills-grid {
@@ -17,7 +33,7 @@
 }
 
 .skill-card {
-    background: #fff;
+    background: #121212f3;
     padding: 20px;
     border-radius: 12px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
@@ -38,11 +54,11 @@
 .skill-card h3 {
     font-size: 1.2rem;
     margin-bottom: 10px;
-    color: #222;
+    color: white;
 }
 
 .skill-card ul {
     padding-left: 18px;
     list-style-type: disc;
-    color: #555;
+    color: white;
 }
