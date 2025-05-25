@@ -1,7 +1,8 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import './Contact.css';
-import Footer from './Footer'; // Make sure you import Footer
+import Footer from './Footer';
+import contactImage from './assets/contact.jpeg'; // Adjust path as necessary
 
 const Contact = () => {
   const form = useRef();
@@ -11,24 +12,29 @@ const Contact = () => {
 
     emailjs.sendForm('pt352kah', 'pt352kah', form.current, 'HVhE5N_AN59aH64x0')
       .then((result) => {
-          alert("Message sent successfully!");
-          console.log(result.text);
-          form.current.reset();
+        alert("Message sent successfully!");
+        console.log(result.text);
+        form.current.reset();
       }, (error) => {
-          alert("Failed to send message. Please try again.");
-          console.log(error.text);
+        alert("Failed to send message. Please try again.");
+        console.log(error.text);
       });
   };
 
   return (
     <>
       <div className="contact-page">
-        {/* Banner Section */}
-        <div className="contact-banner">
+      <div
+        className="contact-banner"
+        style={{ backgroundImage: `url(${contactImage})` }}
+      >
+        <div className="contact-banner-overlay">
           <div className="banner-left">
             <h1>KAHENI PETER</h1>
             <p className="banner-message">
-              I’d love to hear from you! Whether you have a question about my services, want to hire me, want to collaborate, or just want to say hello — feel free to contact me.
+              I’d love to hear from you! Whether you have a question about my services,
+              want to hire me, want to collaborate, or just want to say hello —
+              feel free to contact me.
             </p>
             <p className="banner-contact">
               pk2532625@gmail.com &nbsp; | &nbsp; +254 799090598
@@ -39,11 +45,10 @@ const Contact = () => {
             <p className="banner-note">I would be happy to serve you or hear from you!</p>
           </div>
         </div>
+      </div>
 
-        {/* Thick red line */}
         <hr className="thick-divider" />
 
-        {/* Contact Content Section */}
         <h2>Contact Me</h2>
         <p>I'm open to freelance opportunities or collaborations. Feel free to reach out!</p>
 
