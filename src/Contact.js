@@ -49,10 +49,12 @@ const Contact = () => {
 
         <hr className="thick-divider" />
 
+
+   <div className="contact-container">
         <h2>Contact Me</h2>
         <p>I'm open to freelance opportunities or collaborations. Feel free to reach out!</p>
 
-        <div className="contact-container">
+        
           <form className="contact-form" ref={form} onSubmit={sendEmail}>
             <input type="text" name="user_name" placeholder="Your Name" required />
             <input type="email" name="user_email" placeholder="Your Email" required />
