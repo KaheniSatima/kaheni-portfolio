@@ -1,22 +1,30 @@
 {
   "files": {
-    "main.css": "/kaheni-portfolio/static/css/main.d2add2ff.css",
-    "main.js": "/kaheni-portfolio/static/js/main.495d872c.js",
+    "main.css": "/kaheni-portfolio/static/css/main.cc2ea177.css",
+    "main.js": "/kaheni-portfolio/static/js/main.b74da0f0.js",
     "static/js/453.763c59ea.chunk.js": "/kaheni-portfolio/static/js/453.763c59ea.chunk.js",
     "static/media/prize.jpg": "/kaheni-portfolio/static/media/prize.e4999ee0c4b31b6d5291.jpg",
     "static/media/kcse.jpg": "/kaheni-portfolio/static/media/kcse.1df0cf4f393f911b8738.jpg",
     "static/media/IT.jpg": "/kaheni-portfolio/static/media/IT.c4e22bc791e01d3a71f8.jpg",
     "static/media/letter.jpg": "/kaheni-portfolio/static/media/letter.1fca08291753edf48d64.jpg",
     "static/media/kaheni.jpg": "/kaheni-portfolio/static/media/kaheni.d6c4c490b13adab4e053.jpg",
+    "static/media/ai.jpg": "/kaheni-portfolio/static/media/ai.5b27fe609e47800e0123.jpg",
+    "static/media/digitalMarketing.jpg": "/kaheni-portfolio/static/media/digitalMarketing.ec2c30e5a06194824b16.jpg",
+    "static/media/social.jpg": "/kaheni-portfolio/static/media/social.df080ef6616137f3013b.jpg",
     "static/media/contact.jpeg": "/kaheni-portfolio/static/media/contact.b6cf89330347cfe16b56.jpeg",
-    "static/media/background.jpeg": "/kaheni-portfolio/static/media/background.2e508c3efe2c82734284.jpeg",
+    "static/media/data.jpg": "/kaheni-portfolio/static/media/data.fa2f5ce297ea47ff824c.jpg",
+    "static/media/backend.jpg": "/kaheni-portfolio/static/media/backend.005ba8c9a717fa03a940.jpg",
+    "static/media/graphic.jpg": "/kaheni-portfolio/static/media/graphic.c868707de0fc8d5fc97d.jpg",
+    "static/media/seo.jpg": "/kaheni-portfolio/static/media/seo.aea6b7d9a892489f3731.jpg",
+    "static/media/uiux.jpg": "/kaheni-portfolio/static/media/uiux.7a642a9b80460fd66392.jpg",
+    "static/media/frontend.jpg": "/kaheni-portfolio/static/media/frontend.bd4e7a6daccb49a47d62.jpg",
     "index.html": "/kaheni-portfolio/index.html",
-    "main.d2add2ff.css.map": "/kaheni-portfolio/static/css/main.d2add2ff.css.map",
-    "main.495d872c.js.map": "/kaheni-portfolio/static/js/main.495d872c.js.map",
+    "main.cc2ea177.css.map": "/kaheni-portfolio/static/css/main.cc2ea177.css.map",
+    "main.b74da0f0.js.map": "/kaheni-portfolio/static/js/main.b74da0f0.js.map",
     "453.763c59ea.chunk.js.map": "/kaheni-portfolio/static/js/453.763c59ea.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d2add2ff.css",
-    "static/js/main.495d872c.js"
+    "static/css/main.cc2ea177.css",
+    "static/js/main.b74da0f0.js"
   ]
 }
