@@ -1,90 +1,309 @@
-/* Projects.css */
-
-.projects-page {
-  padding: 40px 20px;
-  background-color: #121212f3;
+/* Page Background */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #121212f3; /* dark background */
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  min-height: 100vh;
+  color: white; /* default text color */
 }
 
-.projects-title {
+/* Projects Section */
+.projects-section {
+  background-color: #121212f3; /* dark background */
+  padding: 50px 20px;
   text-align: center;
+}
+
+/* Headings */
+.main-heading {
   font-size: 2.5rem;
-  font-weight: bold;
-  margin-bottom: 40px;
+  margin-bottom: 10px;
   color: white;
 }
 
+.sub-heading {
+  font-size: 1.8rem;
+  margin-bottom: 40px;
+  color: #037bfc; /* lighter gray for contrast */
+}
+
+/* Grid Layout */
 .projects-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-columns: repeat(3, 1fr);
   gap: 30px;
-  max-width: 1200px;
+  max-width: 1100px;
   margin: 0 auto;
 }
 
+/* Project Card */
 .project-card {
-  background-color: #121212f3;
-  border-radius: 15px;
-  padding: 25px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  text-align: center;
+  background: #121212f3;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .project-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
+  transform: translateY(-8px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.15);
 }
 
 .project-icon {
-  font-size: 3rem;
-  color: #e63946;
-  margin-bottom: 15px;
-}
-
-.project-card h4 {
-  font-size: 1.3rem;
-  color: white;
+  font-size: 2.5rem;
+  color: #fb0c0cec; /* red theme */
   margin-bottom: 10px;
 }
 
+.project-card h3 {
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+  color: white;
+}
+
 .project-card p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+  color: white;
+}
+
+/* Project Link */
+.project-link {
+  display: inline-block;
+  text-decoration: none;
+  background: #fb0c0cec;
+  color: white;
+  padding: 10px 18px;
+  border-radius: 8px;
+  font-weight: 500;
+  transition: background 0.3s ease;
+}
+
+.project-link:hover {
+  background: #0056b3;
+}
+
+
+
+
+/* Web Design & Development Projects Section */
+.project-section {
+  background-color: #121212f3; /* dark background */
+  padding: 60px 20px;
+  text-align: center;
+}
+
+/* Section Heading */
+.project-section .section-heading {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #037bfc;
+}
+
+/* Grid Layout (2 columns) */
+.project-section .project-grid.two-columns {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+  justify-items: center;
+}
+
+/* Project Card */
+.project-section .project-card {
+  background: #121212f3;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  max-width: 400px;
+
+  /* Center contents (including icons) */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.project-section .project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+}
+
+/* Project Icon */
+.project-section .project-icon {
+  width: 48px;
+  height: 48px;
+  display: block;
+  margin: 0 auto 12px;
+  color: #4caefb; /* default */
+}
+
+/* Different colors for each icon */
+.project-section .project-card:nth-child(1) .project-icon {
+  color: #fb0c0cec; /* Telaco */
+}
+.project-section .project-card:nth-child(2) .project-icon {
+  color: #fb0c0cec; /* Mwangaza */
+}
+
+/* Text inside project card */
+.project-section .project-card h3 {
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.project-section .project-card p {
   font-size: 1rem;
   color: white;
   margin-bottom: 20px;
 }
 
-.github-link {
-  display: inline-block;
-  font-size: 0.95rem;
-  text-decoration: none;
-  color: #fff;
+/* Buttons */
+.project-section .project-card button {
   background-color: #fb0c0cec;
+  color: white;
+  border: none;
   padding: 10px 18px;
   border-radius: 6px;
-  transition: background-color 0.3s ease;
+  cursor: pointer;
+  font-size: 0.95rem;
+  transition: background 0.3s ease;
 }
 
-.github-link i {
-  margin-right: 8px;
-}
-
-.github-link:hover {
+.project-section .project-card button:hover {
   background-color: #0056b3;
 }
 
-/* Responsive adjustments */
+
+
+
+.graphic-section {
+  padding: 3rem 2rem;
+  background: #121212f3;
+  text-align: center;
+}
+
+
+.section-heading {
+  font-size: 1.8rem;
+  margin-bottom: 40px;
+  color: #037bfc; /* lighter gray for contrast */
+}
+
+.poster-grid {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+  flex-wrap: wrap; /* makes it responsive */
+}
+
+.poster-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  max-width: 330px;
+  transition: transform 0.3s ease;
+}
+
+.poster-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.poster-card h3 {
+  margin-top: 0.75rem;
+  font-size: 1rem;
+  color: #121212f3;
+}
+
+.poster-card:hover {
+  transform: translateY(-5px);
+}
+
+.logo-section {
+  margin-top: 3rem;
+}
+
+.logo-card {
+  display: flex;
+  flex-direction: column; /* stack image and text vertically */
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  max-width: 300px;
+  margin: 0 auto; /* centers the logo card */
+  text-align: center;
+}
+
+.logo-card img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  margin-bottom: 1rem; /* space between image and header */
+}
+
+.logo-card h3 {
+  font-size: 1.2rem;
+  color: #121212f3;
+  margin: 0; /* remove extra spacing */
+}
+
+
+
+
+
+/* ========== Responsive Design ========== */
+
+/* Tablet screens */
+@media (max-width: 900px) {
+  /* AI/ML projects → 2 columns */
+  .projects-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  /* Web Dev projects → 1 column */
+  .project-section .project-grid.two-columns {
+    grid-template-columns: 1fr;
+  }
+
+  /* Posters wrap naturally */
+  .poster-grid {
+    flex-wrap: wrap;
+  }
+}
+
+/* Mobile screens */
 @media (max-width: 600px) {
-  .projects-title {
-    font-size: 2rem;
+  /* AI/ML projects → 1 column */
+  .projects-grid {
+    grid-template-columns: 1fr;
   }
 
-  .project-card {
-    padding: 20px;
+  /* Web Dev projects (already 1 col at 900px) → keep single column */
+  .project-section .project-grid.two-columns {
+    grid-template-columns: 1fr;
   }
 
-  .project-icon {
-    font-size: 2.5rem;
+  /* Posters stack vertically */
+  .poster-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .poster-card {
+    max-width: 90%; /* posters take more width on small screens */
+  }
+
+  /* Logo stays centered but narrower */
+  .logo-card {
+    max-width: 90%;
   }
 }

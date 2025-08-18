@@ -1,74 +1,149 @@
 import React from 'react';
 import './Projects.css';
 import Footer from './Footer';
+import { FaLanguage, FaUserTie, FaLightbulb, FaBroom, FaHospital } from 'react-icons/fa'; // Icons
+import companyPoster from "./assets/company-poster.jpg";
+import healthPoster from "./assets/health-poster.jpg";
+import churchPoster from "./assets/church-poster.jpg";
+import companyLogo from "./assets/company-logo.png"; 
 
 const Projects = () => {
-    const projects = [
-        {
-            icon: 'fas fa-user-slash',
-            title: 'Churn, Sentiment & Recommendation System',
-            description: 'An AI-driven system for analyzing customer sentiment, predicting churn, and recommending financial services.',
-            github: 'https://github.com/KaheniSatima/kaheni-churn-prediction-system'
-        },
-        {
-            icon: 'fas fa-bullhorn',
-            title: 'Marketing & Sales Automation System',
-            description: 'A smart solution to optimize sales and marketing processes through data-driven insights and automation.',
-            github: 'https://github.com/KaheniSatima/kaheni-marketing-sales-system'
-        },
-        {
-            icon: 'fas fa-network-wired',
-            title: 'ERP System for Business Management',
-            description: 'An integrated platform that manages operations like HR, inventory, and finance to streamline business workflows.',
-            github: 'https://github.com/KaheniSatima/kaheni_erp_system'
-        },
-        {
-            icon: 'fas fa-laptop-code',
-            title: 'My Flutter Portfolio',
-            description: 'A personal portfolio mobile app built using Flutter, showcasing my projects, skills, and contact information.',
-            github: 'https://github.com/KaheniSatima/my_flutter_portfolio'
-        },
-        {
-            icon: 'fas fa-broom',
-            title: 'Telaco Cleaning Services Website',
-            description: 'A modern and responsive website for Telaco Cleaning Services, designed for client engagement and service promotion.',
-            github: 'https://kahenisatima.github.io/telaco-frontend/'
-        },
-        {
-            icon: 'fas fa-clinic-medical',
-            title: 'Mwangaza Wellness and Medical Centre Website',
-            description: 'A professional website for a wellness and medical centre, built to inform and serve patients with essential health content.',
-            github: 'https://kahenisatima.github.io/mwangaza-website/'
-        }
-    ];
+  return (
+    <>
+      <section className="projects-section">
+        <h1 className="main-heading">My Projects</h1>
+        <h2 className="sub-heading">AI/ML Projects</h2>
 
-    return (
-        <>
-            <div className="projects-page">
-                <h2 className="projects-title">My Projects</h2>
-                <div className="projects-grid">
-                    {projects.map((project, index) => (
-                        <div className="project-card" key={index}>
-                            <i className={`${project.icon} project-icon`}></i>
-                            <h4>{project.title}</h4>
-                            <p>{project.description}</p>
-                            <a
-                                href={project.github}
-                                className="github-link"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                            >
-                                <i className="fab fa-github"></i> View on GitHub
-                            </a>
-                        </div>
-                    ))}
-                </div>
-            </div>
+        <div className="projects-grid">
+          {/* Project 1 */}
+          <div className="project-card">
+            <FaLanguage className="project-icon" />
+            <h3>Universal Mini Translator</h3>
+            <p>
+              An AI-powered mini translator that supports multiple languages with 
+              fast and accurate translations.
+            </p>
+            <a 
+              href="https://huggingface.co/spaces/KaheniPeter/universal-mini-translator" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="project-link"
+            >
+              View Project
+            </a>
+          </div>
 
-            {/* Full-width Footer */}
-            <Footer />
-        </>
-    );
+          {/* Project 2 */}
+          <div className="project-card">
+            <FaUserTie className="project-icon" />
+            <h3>HireLens</h3>
+            <p>
+              A smart AI tool that analyzes resumes and job descriptions to 
+              match candidates with opportunities effectively.
+            </p>
+            <a 
+              href="https://huggingface.co/spaces/KaheniPeter/hirelens" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="project-link"
+            >
+              View Project
+            </a>
+          </div>
+
+          {/* Project 3 */}
+          <div className="project-card">
+            <FaLightbulb className="project-icon" />
+            <h3>AI Career Advisor</h3>
+            <p>
+              An AI-based career advisor that guides individuals in choosing 
+              career paths based on their skills and interests.
+            </p>
+            <a 
+              href="https://huggingface.co/spaces/KaheniPeter/ai-career-advisor" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="project-link"
+            >
+              View Project
+            </a>
+          </div>
+        </div>
+      </section>
+
+<hr style={{ border: '4px solid red', margin: '2rem 0' }} />
+
+{/* Web Design & Development Projects Section */}
+      <section className="project-section">
+  <h2 className="section-heading">Web Design & Development Projects</h2>
+  <div className="project-grid two-columns">
+    <div className="project-card">
+      <FaBroom className="project-icon" />
+      <h3>Telaco Cleaning Services Website</h3>
+      <p>
+        A modern and responsive website for Telaco Cleaning Services,
+        designed for client engagement and service promotion.
+      </p>
+      <a
+        href="https://kahenisatima.github.io/telaco-frontend/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <button>View on GitHub</button>
+      </a>
+    </div>
+
+    <div className="project-card">
+      <FaHospital className="project-icon" />
+      <h3>Mwangaza Wellness & Medical Centre Website</h3>
+      <p>
+        A professional website for a wellness and medical centre, built to
+        inform and serve patients with essential health content.
+      </p>
+      <a
+        href="http://www.mwangazawellness.co.ke"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <button>View Project</button>
+      </a>
+    </div>
+  </div>
+</section>
+
+<hr style={{ border: '4px solid red', margin: '2rem 0' }} />
+
+<section className="graphic-section">
+  <h2 className="section-heading">Graphic Design Services</h2>
+  <div className="poster-grid">
+    <div className="poster-card">
+      <img src={companyPoster} alt="Company Poster" />
+      <h3>Company Poster</h3>
+    </div>
+    <div className="poster-card">
+      <img src={healthPoster} alt="Health Facility Poster" />
+      <h3>Health Facility Poster</h3>
+    </div>
+    <div className="poster-card">
+      <img src={churchPoster} alt="Church Poster" />
+      <h3>Church Poster</h3>
+    </div>
+  </div>
+
+  <div className="logo-section">
+  <div className="logo-card">
+    <img src={companyLogo} alt="Company Logo" className="company-logo" />
+    <h3>Company Logo Design</h3>
+  </div>
+</div>
+
+</section>
+
+
+      {/* Full-width Footer */}
+      <Footer />
+    </>
+  );
 };
 
 export default Projects;

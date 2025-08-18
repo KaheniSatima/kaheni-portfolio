@@ -4,7 +4,6 @@ import Navbar from './Navbar';
 import Home from './Home';
 import About from './About';
 import Projects from './Projects';
-import Skills from './Skills';
 import Resume from './Resume';
 import Contact from './Contact';
 
@@ -17,7 +16,6 @@ const App = () => {
                     <Route path="/" element={<Home />} />
                     <Route path="/about" element={<About />} />
                     <Route path="/projects" element={<Projects />} />
-                    <Route path="/skills" element={<Skills />} />
                     <Route path="/resume" element={<Resume />} />
                     <Route path="/contact" element={<Contact />} />
                 </Routes>
