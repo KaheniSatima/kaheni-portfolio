@@ -1,6 +1,6 @@
 import React from 'react';
 import './Footer.css';
-import kaheniImage from './assets/kaheni.jpg';
+import kaheniImage from './assets/IT.jpg';
 
 
 const Footer = () => {

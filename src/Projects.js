@@ -27,6 +27,18 @@ const Projects = () => {
             title: 'My Flutter Portfolio',
             description: 'A personal portfolio mobile app built using Flutter, showcasing my projects, skills, and contact information.',
             github: 'https://github.com/KaheniSatima/my_flutter_portfolio'
+        },
+        {
+            icon: 'fas fa-broom',
+            title: 'Telaco Cleaning Services Website',
+            description: 'A modern and responsive website for Telaco Cleaning Services, designed for client engagement and service promotion.',
+            github: 'https://kahenisatima.github.io/telaco-frontend/'
+        },
+        {
+            icon: 'fas fa-clinic-medical',
+            title: 'Mwangaza Wellness and Medical Centre Website',
+            description: 'A professional website for a wellness and medical centre, built to inform and serve patients with essential health content.',
+            github: 'https://kahenisatima.github.io/mwangaza-website/'
         }
     ];
 

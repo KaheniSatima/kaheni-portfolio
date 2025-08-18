@@ -9,9 +9,11 @@ const About = () => {
       <h2 className="about-title">About Me</h2>
 
       <p className="about-description" style={{ textAlign: 'center', maxWidth: '800px', margin: '0 auto', padding: '1rem' }}>
-        Hello! I'm <strong>Peter Kaheni</strong>, a Computer Science undergraduate (awaiting graduation in September) from <strong>Karatina University</strong>.
-        I am a diligent individual, consistently demonstrating a strong sense of <strong>responsibility</strong>, the ability to <strong>work independently</strong>, and a commitment to effective <strong>teamwork</strong>.
-      </p>
+  Hello! I'm <strong>Kaheni Peter</strong>, a Computer Science undergraduate (awaiting graduation in October) from <strong>Karatina University</strong>.
+  I am a diligent individual, consistently demonstrating a strong sense of <strong>responsibility</strong>, the ability to <strong>work independently</strong>, and a commitment to effective <strong>teamwork</strong>.
+  
+</p>
+
 
       <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'space-around', padding: '2rem 1rem', gap: '2rem' }}>
         <div style={{ flex: '1 1 400px' }}>
