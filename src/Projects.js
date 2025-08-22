@@ -140,6 +140,62 @@ const Projects = () => {
 </section>
 
 
+<hr style={{ border: '4px solid red', margin: '2rem 0' }} />
+
+{/* ================= Data Science & Analytics Section ================= */}
+<section id="datascience" className="datascience-section">
+  <h2 className="section-title">Data Science & Analytics Projects</h2>
+
+  <div className="project-card">
+    {/* Centered icon above the project title */}
+    <i className="fas fa-chart-line project-icon"></i>
+    
+    <h3 className="project-title">Marketing Dashboard</h3>
+    <p className="project-description">
+      A Streamlit-powered dashboard that tracks and analyzes marketing
+      campaign performance across platforms with interactive filters, KPIs,
+      and visualizations.
+    </p>
+    <a
+      href="https://huggingface.co/spaces/KaheniPeter/marketing_dashboard"
+      className="project-btn"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+       View Project
+    </a>
+  </div>
+</section>
+
+
+<hr style={{ border: '4px solid red', margin: '2rem 0' }} />
+
+
+{/* ================= Digital Marketing Section ================= */}
+<section id="digitalmarketing" className="digitalmarketing-section">
+  <h2 className="section-title">
+    <i className="fas fa-bullhorn section-icon"></i> Digital Marketing Projects
+  </h2>
+
+  <div className="project-card">
+    <h3 className="project-title">Marketing Dashboard</h3>
+    <p className="project-description">
+      A Streamlit-powered dashboard that tracks and analyzes marketing
+      campaign performance across platforms with interactive filters, KPIs,
+      and visualizations.
+    </p>
+    <a
+      href="https://huggingface.co/spaces/KaheniPeter/marketing_dashboard"
+      className="project-btn"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+       View Project
+    </a>
+  </div>
+</section>
+
+
       {/* Full-width Footer */}
       <Footer />
     </>

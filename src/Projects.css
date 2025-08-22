@@ -307,3 +307,133 @@ body {
     max-width: 90%;
   }
 }
+
+
+
+
+/* Data Science & Analytics Section */
+.datascience-section {
+  background: #121212f3;
+  padding: 60px 20px;
+  margin-top: 60px;
+  text-align: center;
+  border-radius: 12px;
+}
+
+.datascience-section .section-title {
+  font-size: 2rem;
+  color: #037bfc;
+  margin-bottom: 40px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.datascience-section .project-card {
+  background: #121212f3;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 30px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.datascience-section .project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.12);
+}
+
+.datascience-section .project-title {
+  font-size: 1.5rem;
+  color: white;
+  margin-bottom: 15px;
+}
+
+.datascience-section .project-description {
+  font-size: 1rem;
+  color: white;
+  margin-bottom: 25px;
+}
+
+.datascience-section .project-btn {
+  display: inline-block;
+  background: #fb0c0cec;
+  color: #fff;
+  padding: 12px 28px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.datascience-section .project-btn:hover {
+  background: #0056b3;
+  transform: scale(1.05);
+}
+
+
+
+.digitalmarketing-section {
+  padding: 60px 20px;
+  background: #121212f3;
+  border-radius: 12px;
+  margin-bottom: 40px;
+  text-align: center; /* Centers all text inside section */
+}
+
+.digitalmarketing-section .section-title {
+  font-size: 1.8rem;
+  margin-bottom: 25px;
+  text-align: center;
+  color: #037bfc;
+}
+
+.digitalmarketing-section .section-icon {
+  display: block;
+  margin: 0 auto 12px auto;
+  color: #fb0c0cec; /* 🔴 Red accent for Digital Marketing */
+  font-size: 2rem;
+}
+
+.digitalmarketing-section .project-card {
+  background: #121212f3;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s;
+  max-width: 500px; /* Limit container width */
+  margin: 0 auto; /* Centers container horizontally */
+  text-align: center; /* Centers text inside card */
+}
+
+.digitalmarketing-section .project-card:hover {
+  transform: translateY(-4px);
+}
+
+.digitalmarketing-section .project-title {
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.digitalmarketing-section .project-description {
+  font-size: 1rem;
+  margin-bottom: 15px;
+  color: white;
+}
+
+.digitalmarketing-section .project-btn {
+  display: inline-block;
+  padding: 8px 16px;
+  background: #fb0c0cec; /* 🔴 Red button */
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background 0.3s;
+}
+
+.digitalmarketing-section .project-btn:hover {
+  background: #0056b3;
+}
