@@ -1,7 +1,7 @@
 import React from 'react';
 import './Projects.css';
 import Footer from './Footer';
-import { FaLanguage, FaUserTie, FaLightbulb, FaBroom, FaHospital } from 'react-icons/fa'; // Icons
+import { FaBroom, FaHospital } from 'react-icons/fa'; // Icons
 import companyPoster from "./assets/company-poster.jpg";
 import healthPoster from "./assets/health-poster.jpg";
 import churchPoster from "./assets/church-poster.jpg";
@@ -10,66 +10,166 @@ import companyLogo from "./assets/company-logo.png";
 const Projects = () => {
   return (
     <>
-      <section className="projects-section">
-        <h1 className="main-heading">My Projects</h1>
-        <h2 className="sub-heading">AI/ML Projects</h2>
+   <section id="aiml" className="aiml-section">
+  <h1 className="main-title">My Projects</h1>
 
-        <div className="projects-grid">
-          {/* Project 1 */}
-          <div className="project-card">
-            <FaLanguage className="project-icon" />
-            <h3>Universal Mini Translator</h3>
-            <p>
-              An AI-powered mini translator that supports multiple languages with 
-              fast and accurate translations.
-            </p>
-            <a 
-              href="https://huggingface.co/spaces/KaheniPeter/universal-mini-translator" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="project-link"
-            >
-              View Project
-            </a>
-          </div>
+  <h2 className="section-title">
+    <i className="fas fa-brain section-icon"></i> AI & ML Projects
+  </h2>
 
-          {/* Project 2 */}
-          <div className="project-card">
-            <FaUserTie className="project-icon" />
-            <h3>HireLens</h3>
-            <p>
-              A smart AI tool that analyzes resumes and job descriptions to 
-              match candidates with opportunities effectively.
-            </p>
-            <a 
-              href="https://huggingface.co/spaces/KaheniPeter/hirelens" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="project-link"
-            >
-              View Project
-            </a>
-          </div>
+  <div className="projects-row">
+    {/* Universal Mini Translator */}
+    <div className="project-card">
+      <h3 className="project-title">Universal Mini Translator</h3>
+      <p className="project-description">
+        An AI-powered mini translator that supports multiple languages with fast and accurate translations.
+      </p>
+      <p className="project-subtitle"><strong> Tools & Tech Stack:</strong> Python, Transformers, Hugging Face, Gradio, Sentencepiece, Sacremoses, Accelerate, Langdetect, Torch</p>
+      <div className="project-features">
+        <strong>Key Features:</strong>
+        <ul>
+          <li>Supports multiple languages</li>
+          <li>Fast and accurate translations</li>
+          <li>User-friendly interface</li>
+        </ul>
+      </div>
+      <p className="project-description">
+         <strong>Problem Solved:</strong> Language barriers in communication across diverse audiences.
+      </p>
+      <a
+    href="https://huggingface.co/spaces/KaheniPeter/universal-mini-translator"
+    className="project-btn"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+     View Project
+  </a>
+</div>
+    
 
-          {/* Project 3 */}
-          <div className="project-card">
-            <FaLightbulb className="project-icon" />
-            <h3>AI Career Advisor</h3>
-            <p>
-              An AI-based career advisor that guides individuals in choosing 
-              career paths based on their skills and interests.
-            </p>
-            <a 
-              href="https://huggingface.co/spaces/KaheniPeter/ai-career-advisor" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="project-link"
-            >
-              View Project
-            </a>
-          </div>
-        </div>
-      </section>
+    {/* HireLens */}
+    <div className="project-card">
+      <h3 className="project-title">HireLens</h3>
+      <p className="project-description">
+        A smart AI tool that analyzes resumes and job descriptions to match candidates with opportunities effectively.
+      </p>
+      <p className="project-subtitle"><strong> Tools & Tech Stack:</strong> Python, NLTK, Sentence-Transformers, Scikit-Learn, Gradio, Torch</p>
+      <div className="project-features">
+        <strong> Key Features:</strong>
+        <ul>
+          <li>Analyzes resumes & job descriptions</li>
+          <li>Suggests candidate-job matches</li>
+          <li>Improves recruitment efficiency</li>
+        </ul>
+      </div>
+      <p className="project-description">
+         <strong>Problem Solved:</strong> Difficulty in matching candidates with the right job opportunities.
+      </p>
+      <a
+    href="https://huggingface.co/spaces/KaheniPeter/Hirelens"
+    className="project-btn"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+     View Project
+  </a>
+    </div>
+
+    {/* AI Career Advisor */}
+    <div className="project-card">
+      <h3 className="project-title">AI Career Advisor</h3>
+      <p className="project-description">
+        An AI-based career advisor that guides individuals in choosing career paths based on their skills and interests.
+      </p>
+      <p className="project-subtitle"><strong>Tools & Tech Stack:</strong> Python, Streamlit, Sentence-Transformers, Scikit-Learn, Torch</p>
+      <div className="project-features">
+        <strong> Key Features:</strong>
+        <ul>
+          <li>Analyzes skills & interests</li>
+          <li>Recommends suitable career paths</li>
+          <li>Provides personalized career guidance</li>
+        </ul>
+      </div>
+      <p className="project-description">
+         <strong>Problem Solved:</strong> Uncertainty in choosing suitable career paths for individuals.
+      </p>
+      <a
+    href="https://huggingface.co/spaces/KaheniPeter/AI-Career-Advisor"
+    className="project-btn"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+     View Project
+  </a>
+    </div>
+
+    {/* Magnate AI Demo */}
+<div className="project-card">
+  <h3 className="project-title">Magnate AI Demo</h3>
+  <p className="project-description">
+    An AI-powered system that optimizes advertising campaigns and automates operational workflows by integrating Dynamic Creative Selection, AI-Driven Scheduling, and Automated OCR Processing.
+  </p>
+  <p className="project-subtitle">
+    <strong>Tools & Tech Stack:</strong> Python, Streamlit, Pillow, Pytesseract, Python-dateutil, Opencv-python-headless
+  </p>
+  <div className="project-features">
+    <strong>Key Features:</strong>
+    <ul>
+      <li>Dynamic Creative Selector to optimize ad engagement</li>
+      <li>Greedy Scheduler for efficient campaign planning</li>
+      <li>OCR Automation for extracting key information from invoices & purchase orders</li>
+      <li>Modular design with scalable backend APIs</li>
+    </ul>
+  </div>
+  <p className="project-description">
+    <strong>Problem Solved:</strong> Reduces manual effort in ad management, improves campaign efficiency, and automates document processing to save time and reduce errors.
+  </p>
+  <a
+    href="https://huggingface.co/spaces/KaheniPeter/Magnate-AI-Demo"
+    className="project-btn"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+     View Project
+  </a>
+</div>
+
+
+<div className="project-card">
+  <h3 className="project-title">Predictive Analytics Dashboard</h3>
+  <p className="project-description">
+    An interactive dashboard that enables data visualization, trend exploration, and predictive modeling.
+    Built with Streamlit and Docker, it provides real-time insights for better decision-making.
+  </p>
+  <p className="project-subtitle">
+    <strong>Tools & Tech Stack:</strong> Python, Streamlit, Pandas, Scikit-learn, Altair, Plotly, Docker
+  </p>
+  <div className="project-features">
+    <strong>Key Features:</strong>
+    <ul>
+      <li>Interactive data visualization with charts and graphs</li>
+      <li>Predictive modeling using machine learning algorithms</li>
+      <li>Trend forecasting with customizable filters</li>
+      <li>Dockerized for seamless deployment on Hugging Face Spaces</li>
+    </ul>
+  </div>
+  <p className="project-description">
+    <strong>Problem Solved:</strong> Simplifies predictive analytics by combining data exploration,
+    visualization, and machine learning into one easy-to-use tool for analysts and business decision-makers.
+  </p>
+  <a
+    href="https://huggingface.co/spaces/KaheniPeter/predictive_analytics_dashboard"
+    className="project-btn"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+     View Project
+  </a>
+</div>
+
+  </div>
+</section>
+
 
 <hr style={{ border: '4px solid red', margin: '2rem 0' }} />
 
@@ -144,56 +244,51 @@ const Projects = () => {
 
 {/* ================= Data Science & Analytics Section ================= */}
 <section id="datascience" className="datascience-section">
-  <h2 className="section-title">Data Science & Analytics Projects</h2>
-
-  <div className="project-card">
-    {/* Centered icon above the project title */}
-    <i className="fas fa-chart-line project-icon"></i>
-    
-    <h3 className="project-title">Marketing Dashboard</h3>
-    <p className="project-description">
-      A Streamlit-powered dashboard that tracks and analyzes marketing
-      campaign performance across platforms with interactive filters, KPIs,
-      and visualizations.
-    </p>
-    <a
-      href="https://huggingface.co/spaces/KaheniPeter/marketing_dashboard"
-      className="project-btn"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-       View Project
-    </a>
-  </div>
-</section>
-
-
-<hr style={{ border: '4px solid red', margin: '2rem 0' }} />
-
-
-{/* ================= Digital Marketing Section ================= */}
-<section id="digitalmarketing" className="digitalmarketing-section">
   <h2 className="section-title">
-    <i className="fas fa-bullhorn section-icon"></i> Digital Marketing Projects
+    <i className="fas fa-chart-line section-icon"></i> Data Science & Analytics Projects
   </h2>
 
   <div className="project-card">
-    <h3 className="project-title">Marketing Dashboard</h3>
+    <h3 className="project-title">1. Marketing Dashboard</h3>
+
     <p className="project-description">
-      A Streamlit-powered dashboard that tracks and analyzes marketing
-      campaign performance across platforms with interactive filters, KPIs,
-      and visualizations.
+      A Streamlit-powered dashboard that tracks and analyzes marketing campaign
+      performance across platforms with interactive filters, KPIs, and visualizations.
     </p>
+
+    <p className="project-subtitle">
+      <strong> Tools & Tech Stack:</strong> Python, Streamlit, Pandas, Plotly, Hugging Face Spaces
+    </p>
+
+    <div className="project-features">
+      <strong> Key Features:</strong>
+      <ul>
+        <li>KPI tracking (Impressions, Clicks, CTR, ROAS)</li>
+        <li>Campaign analysis with interactive charts</li>
+        <li>Downloadable reports (CSV & Excel)</li>
+      </ul>
+    </div>
+
+    <p className="problem-solved">
+       <strong>Problem Solved:</strong> Businesses struggle to track campaign ROI across multiple platforms.
+    </p>
+
     <a
       href="https://huggingface.co/spaces/KaheniPeter/marketing_dashboard"
       className="project-btn"
       target="_blank"
       rel="noopener noreferrer"
     >
-       View Project
+      View Project
     </a>
   </div>
 </section>
+
+
+
+
+
+
 
 
       {/* Full-width Footer */}

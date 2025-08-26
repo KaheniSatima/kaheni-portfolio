@@ -8,82 +8,96 @@ body {
 }
 
 /* Projects Section */
+.main-title {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 40px;
+  color: white;
+  font-weight: bold;
+}
+
 .projects-section {
   background-color: #121212f3; /* dark background */
   padding: 50px 20px;
   text-align: center;
 }
 
-/* Headings */
-.main-heading {
-  font-size: 2.5rem;
-  margin-bottom: 10px;
-  color: white;
+.aiml-section {
+  padding: 60px 20px;
+  background-color: #121212f3;
+  text-align: center;
 }
 
-.sub-heading {
-  font-size: 1.8rem;
-  margin-bottom: 40px;
-  color: #037bfc; /* lighter gray for contrast */
+.aiml-section .section-title {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #037bfc;
 }
 
-/* Grid Layout */
-.projects-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 30px;
-  max-width: 1100px;
-  margin: 0 auto;
+.projects-row {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap; /* allows wrapping for smaller screens */
 }
 
-/* Project Card */
 .project-card {
   background: #121212f3;
   padding: 20px;
   border-radius: 12px;
-  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  width: 320px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+  text-align: left;
+  transition: transform 0.3s ease;
 }
 
 .project-card:hover {
-  transform: translateY(-8px);
-  box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+  transform: translateY(-5px);
 }
 
-.project-icon {
-  font-size: 2.5rem;
-  color: #fb0c0cec; /* red theme */
-  margin-bottom: 10px;
-}
-
-.project-card h3 {
+.project-title {
   font-size: 1.4rem;
   margin-bottom: 10px;
   color: white;
 }
 
-.project-card p {
+.project-description {
   font-size: 1rem;
-  margin-bottom: 20px;
   color: white;
+  margin: 10px 0;
 }
 
-/* Project Link */
-.project-link {
+.project-subtitle {
+  font-size: 0.95rem;
+  color: #0cfb40ec;
+  margin: 10px 0;
+  font-weight: 500;
+}
+
+.project-features {
+  margin: 10px 0;
+}
+
+.project-features ul {
+  margin: 8px 0 0 20px;
+  color: #fb0c0cec;
+  font-size: 0.95rem;
+}
+
+.project-btn {
   display: inline-block;
-  text-decoration: none;
+  margin-top: 15px;
+  padding: 10px 20px;
   background: #fb0c0cec;
   color: white;
-  padding: 10px 18px;
-  border-radius: 8px;
-  font-weight: 500;
+  border-radius: 6px;
+  text-decoration: none;
   transition: background 0.3s ease;
 }
 
-.project-link:hover {
+.project-btn:hover {
   background: #0056b3;
 }
-
 
 
 
@@ -374,66 +388,78 @@ body {
 
 
 
+/* Digital Marketing Section */
+/* Digital Marketing Section */
 .digitalmarketing-section {
   padding: 60px 20px;
-  background: #121212f3;
-  border-radius: 12px;
-  margin-bottom: 40px;
-  text-align: center; /* Centers all text inside section */
+  background-color: #121212f3; /* light background for contrast */
+  text-align: center;
 }
 
 .digitalmarketing-section .section-title {
-  font-size: 1.8rem;
-  margin-bottom: 25px;
-  text-align: center;
+  font-size: 2rem;
   color: #037bfc;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
 }
 
 .digitalmarketing-section .section-icon {
-  display: block;
-  margin: 0 auto 12px auto;
-  color: #fb0c0cec; /* 🔴 Red accent for Digital Marketing */
-  font-size: 2rem;
+  color: #fb0c0cec; /* orange accent for marketing */
+  font-size: 1.8rem;
 }
 
 .digitalmarketing-section .project-card {
   background: #121212f3;
-  padding: 20px;
   border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
-  transition: transform 0.2s;
-  max-width: 500px; /* Limit container width */
-  margin: 0 auto; /* Centers container horizontally */
-  text-align: center; /* Centers text inside card */
-}
-
-.digitalmarketing-section .project-card:hover {
-  transform: translateY(-4px);
+  padding: 25px;
+  margin: 0 auto;
+  max-width: 900px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: left;
 }
 
 .digitalmarketing-section .project-title {
-  font-size: 1.3rem;
-  margin-bottom: 10px;
-  font-weight: 600;
-}
-
-.digitalmarketing-section .project-description {
-  font-size: 1rem;
+  font-size: 1.5rem;
   margin-bottom: 15px;
   color: white;
 }
 
+.digitalmarketing-section .project-description,
+.digitalmarketing-section .project-features,
+.digitalmarketing-section .problem-solved {
+  font-size: 1rem;
+  color: white;
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
+
+.digitalmarketing-section .project-subtitle {
+  font-size: 1rem;
+  color: #0cfb40ec;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.digitalmarketing-section .project-features ul {
+  margin: 10px 0 0 20px;
+  text-align: left;
+}
+
 .digitalmarketing-section .project-btn {
   display: inline-block;
-  padding: 8px 16px;
-  background: #fb0c0cec; /* 🔴 Red button */
-  color: white;
-  border-radius: 8px;
+  margin-top: 15px;
+  padding: 12px 20px;
+  background-color: #fb0c0cec; /* orange CTA button */
+  color: #fff;
+  font-weight: bold;
   text-decoration: none;
-  font-weight: 500;
-  transition: background 0.3s;
+  border-radius: 6px;
+  transition: background 0.3s ease;
 }
 
 .digitalmarketing-section .project-btn:hover {
-  background: #0056b3;
+  background-color: #0056b3;
 }
