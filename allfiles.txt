@@ -1,0 +1,595 @@
+e7b4231c614b801f5d20eabbc5e060409d76f1c2
+db40be71354a6aa0ad817b8237acdbede9aa8ffe
+984c1a9b4e357349415caef19d2d07d6ad14cb0b
+22d14f9b46dd0977094fe93e36719cf3f804b0da
+cb9ab71d74d0830df6ac3e8b5ceeeae6b5d89188
+d393a341a1beef55e6286c6f74d9bd7cb2547dcf
+0094904a12f821afd805ab4601f7c20a2d22492d
+8292de80ec04a74e962de42c30c1371050b6b270
+d5398b3113739505aa73c187f6932abfbd02986a
+f24c24610635a042eb11cfebe7042c4547a1cd68
+fb7de2edcc419adfc593e6bf9c7e79b3c57e1b90
+ad7d07941671ba36ff1cae4244089166bbda4942
+82331f42c645eb3d0b752073639880eec1b5afe0
+26712c463583a7f2d2cb0a6078857e1dac606fae
+4c4cec2575bca10da9d791de231dab2d7b25f186
+bbdcf8e4de95af30f560153e18b4f5b3f868a577 
+4d29575de80483b005c29bfcac5061cd2f45313e .gitignore
+9ff4e47733424c03b00c7ce4cfa125f068ec9ee0 README.md
+300cd98d8ecfcf6bf08755eedf3d0680e35a9b28 package-lock.json
+937a9924f1f25eae0d816b043235b646e53baabb package.json
+f55c08127e23abbbbd7101c414d2b1bcabeb3174 public
+fa807e3d418a2ccea91c13a7689050ab6db4847c public/RESUME.pdf
+a11777cc471a4344702741ab1c8a588998b1311a public/favicon.ico
+1104ab530fea91df1d77d98c27ea2f90d633b2b5 public/index.html
+fc44b0a3796c0e0a64c3d858ca038bd4570465d9 public/logo192.png
+a4e47a6545bc15971f8f63fba70e4013df88a664 public/logo512.png
+080d6c77ac21bb2ef88a6992b2b73ad93daaca92 public/manifest.json
+e9e57dc4d41b9b46e05112e9f45b7ea6ac0ba15e public/robots.txt
+6f10acb3183490ac8f83dba689e392b0dabba5b7 src
+28e5f1f2cd8f2bc8129bd491f1ffcc819864d58a src/About.css
+558d027c8c604c5945a1376d83ca620f0901039f src/About.js
+a71989b6ca739363f32034c760b4b23a1680b0ab src/App.css
+eb0bcdd998b141058a3495cfbbadae42a1506f21 src/App.js
+1f03afeece5ac28064fa3c73a29215037465f789 src/App.test.js
+0a28582b69d19d3365ee86d13a8cf02af9e6abd5 src/Certifications.css
+abbe345d2e22af5b20e03f11d63f64b596f5fe47 src/Certifications.js
+f6f0be0408623886d2de2b13f614f870abacffd6 src/Contact.css
+10b92fd24cdcdcc1d92a19e89b9c7fdd00b00283 src/Contact.js
+23b2631c35bef8df002f2b4917e18b47515c2d4a src/Footer.css
+8edbb0748f7f9770dfff1f70502afe8849ba9823 src/Footer.js
+410b67605dbb9a093c33a7ded84593ea2347fb28 src/Home.css
+dc0d0cda0bfa19f38a01458b963ac0f2b0cdf915 src/Home.js
+df504bda12bc5db37dbe483716c5377f6c6a9d1c src/Navbar.css
+7e83cc2818592893e390a10051c230f803984710 src/Navbar.js
+808df2f7a0f946ecead6078ce41f5eb72ad229c0 src/Projects.css
+0a770a6394738f4c466b79cbbe31389626be7339 src/Projects.js
+67ecc346c2762b038301d1bdf0c09cf79afe9ed5 src/Resume.css
+5327a5e8e132c4f2e78e6a564191d871b9c8a99d src/Resume.js
+de73ebad2ecb410f1fa5dab34db09167bb6ffcf0 src/Skills.css
+7822e86337a6fb1d81e0580df1f4e4c3ae762ced src/Skills.js
+523240f22d707ccbd99eec85b9a25b0b3ae27113 src/assets
+3bfbdcbe6d1a4a39db387a66010bd8d9192c077b src/assets/Documents
+a2c627fca241575bb4eb58d41d9e9589ba427734 src/assets/Documents/2.Client's Engagement.pdf
+067bef71897e8878b4f19bbaaf5786a29596e64e src/assets/Documents/2025-03-14T16-37_export.csv
+be38e4e5b8127236677445a5abbfb5b830b9a087 src/assets/Documents/A1 SLIDES.pptx
+e138d433b8f99165b172536bc655691025b0d886 src/assets/Documents/A1.jpg
+9c452125ef76bb52c06b525a1f5b78909261993c src/assets/Documents/A1.pdf
+7af8937726cb670821f5b7de35ecd8d692f08c8a src/assets/Documents/A12.jpg
+63f43dca2c373e856ba792ae2a353c1e058a0c89 src/assets/Documents/A2 SLIDES.pptx
+3efb95a81a30d5fddbae2aabb2d68e4a4fd4e8b5 src/assets/Documents/A2.jpg
+f904cbc23f227e4963354aecc54aad2e93b73bbc src/assets/Documents/A2.pdf
+9f9add58f1ed369c1895962b04f5f5485ea91b87 src/assets/Documents/A3.jpg
+2d8af9935e8b6b1c3148f2dd34d7d70c0b86f11b src/assets/Documents/A4.jpg
+5e9ac5789ad70e00f322355cd28def98e0142df9 src/assets/Documents/A5.jpg
+22f3eef12106d169875c2ac01a263bc5c6922c8c src/assets/Documents/A6.jpg
+14da2773dae9b13c95a1d671076a294fa9579ec4 src/assets/Documents/A7.jpg
+6cdecc6b6b405f8c1f4bbfec53c139e12cf2c836 src/assets/Documents/AA1.jpg
+101c97c7517c8594fc1d804adad0166563aae4b5 src/assets/Documents/ACADEMIC FIELD TRIP REPORT.docx
+39a63375d33fa7eca0552c954e63779ca9a32fd4 src/assets/Documents/AI ASSIGNMENT.docx
+2973e0bbdbf559adff506cc8537377fb11604c6d src/assets/Documents/AI ASSIGNMENT.pdf
+c5c520f183020ac1692e05b354db79ee6f6213dc src/assets/Documents/AL ML DS.docx
+c2b30a97d5b1bd33e59911c07b911585008aee1d src/assets/Documents/ATTACHMENT REPORT FORMAT.pdf
+fcf23f01414df57f36fcd65764b33d6362f5629e src/assets/Documents/B1.jpg
+c49806b1732596a5eb7cd72d976644eb53ad9aa3 src/assets/Documents/B10.jpg
+25787cef2e394a20cb0ee5eb1695ad9ea5795dbd src/assets/Documents/B11.jpg
+15fd7f1c5f539b006532a0be97690277b3a2adfa src/assets/Documents/B2.jpg
+472b1e2c1b8bffad05eb952350f21bfd1ed8b577 src/assets/Documents/B3.jpg
+f3fb85439274b0b3e8f6a5e6582364c77060f8d0 src/assets/Documents/B4.jpg
+a92a8a47c7fd45552e4245e3ea5b64702b4f6290 src/assets/Documents/B5.jpg
+1d0283334054669bafea5c03ff43ea68d062b49d src/assets/Documents/B6.jpg
+edf5203bd6292234ebc2bbd0fcfb9d95f4a80dfa src/assets/Documents/B7.jpg
+399b3ac524b86f3130a25d431d608f6d3aee6b0f src/assets/Documents/B8.jpg
+1bdf94014ef97748c5ddf5bbecedec75a2fe34a7 src/assets/Documents/B9.jpg
+49b5a4122f2ebe1acf06eefe788398a68da83eaa src/assets/Documents/Book1.xlsx
+e050230194086387cbe7c4a884ee19663af15deb src/assets/Documents/COMPUTER PROGRAMMING CAT 2.pdf
+7cd8a05b80133a60a0e7c073fbf1fa9e2b95035a src/assets/Documents/CURRICULUM VITAE.pdf
+c072b38ae9edbd31795ed5f25aacb1669ed59983 src/assets/Documents/Catholic Kiaritha-Ini.docx
+9d9bfa726f471130042d81ca753a447a63053839 src/assets/Documents/Chapter One.docx
+87a196c93a198daaed34c2ebbd1835a62181de0c src/assets/Documents/Com 429, 24.pdf
+d681845009123e09533b2add336b27a9e54ad26a src/assets/Documents/Content Marketing Certificate.png
+63d7a794cfaf28df89055647a09ec7da012f0678 src/assets/Documents/Cover Letter.pdf
+6d94232935c1f0f6d5529cc86b8100171d04596d src/assets/Documents/D5.jpg
+f750c7d490e2010edc28830e80e7c385b7aef81d src/assets/Documents/D6.jpg
+6c69c819980e22e68680f6cd5d27f6a44821237c src/assets/Documents/DOCUMENTATION PROJECT.docx
+0d02ad23a7a37aa2bd23d2b3764cd219e18209ca src/assets/Documents/Digital Marketing Certificate.png
+ab9bba67643eaa73d2ad05889b8443557364ad7d src/assets/Documents/FORM.pdf
+229b72581800fe9601b3737aaaf11041dd79d7cf src/assets/Documents/FORTH YEAR PROJECT (2).docx
+a250c7820fe5ad5cfee4455a2902cb371650e82d src/assets/Documents/For lab persons.docx
+af171767c1f37bd8752d7d90cf1b8ce5c5e4b64f src/assets/Documents/For lab persons.pdf
+45bb7874f5a3e4c7f0ec1d436c7039d885c6e4dd src/assets/Documents/For_lab_persons[1]-_GI[1].docx
+1b34d7ac41218eae1c660585f96598ad5530cea3 src/assets/Documents/GEOFFREY MUSILI.docx
+3a8f6044ec75e108a525865cb69f7abd396e528f src/assets/Documents/GOOGLE ADS APP CERTIFICATION.pdf
+99c79e0917ee808bf9ba908a475893b9882d6889 src/assets/Documents/GOOGLE ADS DISPLAY CERTIFICATION.docx
+087a27f9b7b5da0048d0320cfb6b15d22be28efa src/assets/Documents/GOOGLE ADS DISPLAY CERTIFICATION.pdf
+49476cd1a1604d11137e688caa3c6b1ff282cd78 src/assets/Documents/GOOGLE ADS MEASUREMENT CERTIFICATION.pdf
+15d34cdc8ed58a8809096b30e1c2863ca56f6a5f src/assets/Documents/GOOGLE ADS SEARCH CERTIFICATION.pdf
+2e028f97163082f3189547f97df22a77e94f8b18 src/assets/Documents/GOOGLE ANALYTICS CERTIFICATION.pdf
+4a035a1f6abf1e7ef25526613f8f7491e57ec386 src/assets/Documents/GOOGL_processed.csv
+3d31e238390e56ba5008b81dc9034faf1e107585 src/assets/Documents/Google Ads App Certificate.jpg
+f20d9e49a2ddc6fc04705358068aff8ca5bae8c2 src/assets/Documents/Google Ads Display Certificate.jpg
+ff0f3c6eee3ae3a14d463ed1b3f12984e53c5f5f src/assets/Documents/Google Ads Measurement Certification.jpg
+b51e60c46023d75dad597018dd6eb1c9cbee7ac6 src/assets/Documents/Google Ads Search Certificate.jpg
+92947c6d3e60de615711d30d8d7030ada6fb40ae src/assets/Documents/Google Analytics Certificate.jpg
+413bf45d52bc0b25b83db321c1d0d6a7371fd3f7 src/assets/Documents/HGDFGFSD.jpg
+3171ff1fb45dc4312b5fa6f590b6b230d5109253 src/assets/Documents/HOSTINGER.pdf
+5228b73b147eba842e1981f8ff752c3f000f82e5 src/assets/Documents/IMG-20250424-WA0001.jpg
+9efe509d806fcc950922017abafa3a4a043cf2b7 src/assets/Documents/IMG-20250424-WA0002.jpg
+6040920b7a7d67c22680d9fd2a9261eae830be2b src/assets/Documents/IMG-20250424-WA0003.jpg
+cc1b815f6163beb341e19072101495a6658aa090 src/assets/Documents/IMG-20250424-WA0004.jpg
+d58ece8d15ef34e946aa3e0c554cbfb517741071 src/assets/Documents/Inventory management.2mdl
+9a83980699a009a696cac003cc26567efade47fe src/assets/Documents/Inventory.vdfx
+4c82d558952d060c82e83755824c826fb355371e src/assets/Documents/K1.pdf
+6e86d18e95fa6d66794187d83b4a8679d38e0a00 src/assets/Documents/K2.docx
+3330bf922ad704011730da68dfad9ca99ed703a2 src/assets/Documents/K2.pdf
+83a6e46f334edbd37c4b5f669b8c3e2de69095a5 src/assets/Documents/KAHENI APPLICATION LETTER.pdf
+b68c2e27476f1d74984c3763b87c9c768bf8711b src/assets/Documents/KAHENI BIT 444E.docx
+2b23be723665946d8d041efc50da7d34a3306ec9 src/assets/Documents/KAHENI COM 410.docx
+667cfd4239e70d0faefc1da55f83164af8e8f599 src/assets/Documents/KAHENI COM 421.pdf
+48cf95a50c0276e274e1facb69aecb9737fbb69e src/assets/Documents/KAHENI COVER LETTER.pdf
+cb0c63ceb6ee031731bbdba17d0b02c477b08cdb src/assets/Documents/KAHENI CV.pdf
+97622a13bcddc7e33dc688a8f63d7453e42996ef src/assets/Documents/KAHENI KINYAJUI.docx
+db3f2c8e0911a4af3c1096a0583f038179a58147 src/assets/Documents/KAHENI PETER assigment one.docx
+ffd99593e3b209cbe75f08124ec4dc9006de322f src/assets/Documents/KAHENI PETER.pdf
+a58c3c8e95716aaec8f4e6073e2aa5631ec5d10d src/assets/Documents/KAHENI RESUME 2.pdf
+9245a32154b1f3d95924c422ca674885ce1af724 src/assets/Documents/KAHENI RESUME.docx
+8cc1131238901d6ba3df1b7e14e70b59c9bfe1d5 src/assets/Documents/KAHENI RESUME.pdf
+de851218efcd0a2d8e48ed2913d874d335257f7d src/assets/Documents/KAHENI ROADMAP.pdf
+6e1d04c1a9ce9b7ec30f697981c559531b1a4e98 src/assets/Documents/KAHENI TRIP.docx
+3e95d0929419725f017413479eddd001c1fd0b05 src/assets/Documents/KAHENI TRIP.pdf
+2f24fb189c99324e01b362065a0b394142b43606 src/assets/Documents/KAHENI.docx
+938bcff8643557c1662a7ba712d46127874afebd src/assets/Documents/KARATINA UNIVERSITY ATTACHMENT REPORT.docx
+e0ff93ddcc9339cdb4c3b84aa7e1cfa6ddd66b3f src/assets/Documents/KARATINA UNIVERSITY ATTACHMENT REPORT.pdf
+ea20081d66f69411143a65f053d223d56e9b7758 src/assets/Documents/KARATINA UNIVERSITY project report.docx
+d69278bca6c10e770fdc365f8f3628fb302a95e6 src/assets/Documents/KIMENYITHIA.pdf
+d5e82cba73308517ea4dc6ea6177a60ea9c91725 src/assets/Documents/Kiaritha-Ini.docx
+c7d8377d01b5ccb5e0caa82badc453763c25c6c8 src/assets/Documents/LetterHead.pdf
+31f845f11fd46d9f160d4a209d759bedf2e5e74a src/assets/Documents/Local SEO Essentials.jpg
+bc18373c1cff9a2dc1f92169327cc49fd00544fb src/assets/Documents/Logic programming puzzle practical Quiz.pdf
+baf1dc0edd15e01278d9b51729c6dbc50394daea src/assets/Documents/M1.jpg
+851b31dc5b9e3812f12afbb22ed3d216d4b55483 src/assets/Documents/M1.pdf
+bc9dfad44f98744fb933dd76ff794d58b603b923 src/assets/Documents/M10.jpg
+76c3825a9010d805643e7806673ce30673bccc5d src/assets/Documents/M2.jpg
+1735783e7f816b07e156452339f018243c568921 src/assets/Documents/M3.jpg
+fe6ec37801b939b2c3be1a0490220a114fa791bb src/assets/Documents/M4.jpg
+ff838bea8d373f1d7a41e1cf387635071eb5daf6 src/assets/Documents/M5.jpg
+108d4a725a083db947dc00629cc1a937ea9df77b src/assets/Documents/M6.jpg
+2fef76d27d750ddab075ae5b24713f59209e3d21 src/assets/Documents/M7.jpg
+c8db86979f477b9a768b2e2935b0405f11570b0c src/assets/Documents/MACHAKOS  UNIVE.pdf
+029686f5d22cb6794ecc9121df4935e1fe47e6b1 src/assets/Documents/MACHAKOS  UNIVERSITY.pdf
+99b757a6ce26abb463892d4523a252845d2cfe77 src/assets/Documents/MACHINE LEARNING.docx
+45901b4f25302a727ace555f73a44a23146f844c src/assets/Documents/MAGNATE AI PROPOSAL.docx
+2bbedf905c8a558e30548c44729c407573227813 src/assets/Documents/MAGNATE AI PROPOSAL.pdf
+1363b91aa494b728c6835af89e57030240742abb src/assets/Documents/MWA.xlsx
+f485747b9ea3f90d1f6f3714b9847d459b28f252 src/assets/Documents/Makefile.win
+a77b0301309f9567dc3c5a838a876e96ffede69b src/assets/Documents/Mwangaz.xlsx
+e6abe37c46c4fd7966c69a761851150a2ee0ca8c src/assets/Documents/Mwangaza Wellness Letterhead.docx
+96167cecd744b876b1299bcba49e871b3a5ad95b src/assets/Documents/MwangazaContacts.xlsx
+f5db8088956454251550e8f71640a942ec09322f src/assets/Documents/MwangazaMeeting.docx
+0a64818b6392e91aefe7e59c3eb13b64e7c18147 src/assets/Documents/NICODEMUS BIT 444E.docx
+cd166981839ba72f9414d35f499fb4e719d9bf66 src/assets/Documents/NICODEMUS MUIMI MALOMBE.docx
+3c4849d4df5d77fd3f8f832ec0bcf7846ee20963 src/assets/Documents/NICODENUS MUIMI MALOMBE.docx
+1f2f2aaf69a85959deae5f751a6052c4b303655b src/assets/Documents/NP_AC19_3b_TyashiaBoswell_2.accdb
+89ad31dd6919bbaad537567be29eec7c1372eb0e src/assets/Documents/Name(Arshdeep Sigh) Course(CPSE110) Student Id (2349614) Room no(403).docx
+d2bac682f5e376db6a34dafabb0d116fe3a730eb src/assets/Documents/Nicodemus_Muimi_Malombe_CV.docx
+98460ca409ba652076dedf2b7970273c16d5cdd4 src/assets/Documents/Nicodemus_Muimi_Malombe_Resume.docx
+def07423ea43b810d61fd19e572999c02f209887 src/assets/Documents/On-Page SEO Essentials.jpg
+d8656bb66e6efb7cdb717935624b7b499472ea51 src/assets/Documents/PDF_Phoenix_20250315_185623.pdf
+02e8fb0cdfa061cb72b491e64e447126a2908435 src/assets/Documents/PROFOMA.docx
+f36e7cf57e06123f4678ddac2e5d6f98fb6c1142 src/assets/Documents/PersonalMonthlyBudget1.pdf
+956bd79c6785f9f9bc300da0b3b72a3bf5774c75 src/assets/Documents/Professor Grace Irimu.jpg
+de57f2288ecd14202e037f7788391ff44db458ee src/assets/Documents/RESUME AI.docx
+6b62ab6d6e057d5b872129ae5c45e91801d5a5d3 src/assets/Documents/Ragati.pdf
+6dad70c0b343ca0c2257d4b9e468be570d0032b0 src/assets/Documents/Release Form.docx
+7ad655a3cbb5aec7edabafa39b4811fe815ddd79 src/assets/Documents/Release Form.pdf
+7af3382729ae00f11b2ca9ab39c4bad22f730548 src/assets/Documents/SATIMA PROJECT1.pdf
+ab937c95a12ba35b6c3f8e4865d02b7ff9cd2d14 src/assets/Documents/SATIMA PROPOSAL.docx
+79562b02a8deba48e36c1b268cff511b0b6a31d7 src/assets/Documents/SATIMA REPORT.docx
+801e1d7416d4290b3b13122307b3bd803d1a2d02 src/assets/Documents/SATIMA REPORT.pdf
+8c1dcbaffc30f2c71d8a7b39db8f53b9a4fadaff src/assets/Documents/SATIMA guidance.docx
+66e573fb1ccd290270b1725cab8ae3f4606f15a1 src/assets/Documents/SEO Certificate1.jpg
+61b951f656f9536b184f53e90f29362f78ea4825 src/assets/Documents/SEO Certificate2.jpg
+46128375f49c8d9158a579dc17bce0581286ddba src/assets/Documents/SQA.docx
+57141d354b3e176561d942fc3731c3503e3ea00f src/assets/Documents/STATQUESTJOURNEY Cover Letter.pdf
+f6ba423c3824a97786c713428e296ff826ec6b23 src/assets/Documents/Satima Digital Marketing Roadmap.docx
+8332873cdf994b3ad677903a7a23120bcf990125 src/assets/Documents/Satima LinkedIn post.docx
+a17fdaf88bbd3e1f5b62954f07f6c2ef9c8f5ca9 src/assets/Documents/Satima core values.docx
+5595dcdb7fe103d6a925fe80af9820bc79e71d1c src/assets/Documents/Sleep_Depression_Analysis.xlsx
+afbdb6ca5509830b5a9ce5cf17737d8d775ae654 src/assets/Documents/Social Media Management Certificate.png
+9dd5fe8e9b689ba6f875348066803a3f3882d858 src/assets/Documents/THEME SONG.docx
+5d778b366b0a265250d111bd21280cffd08d245a src/assets/Documents/TaxiBooking_Presentation.pptx
+ba042e1dfde79822bf2acbc09c9eaf5689c799c2 src/assets/Documents/Text visualizations.docx
+33e4946455101ae84304746e1847ecee1bcf73a8 src/assets/Documents/Tribute to my Dad.docx
+205089651b551c7aa3018d6643ed2d6381827bdd src/assets/Documents/Undergraduate Project Paper Guidelines.pdf
+dcba9420f32c4e6fa7fddfac02eca099fd29a585 src/assets/Documents/Untitled-1.jpg
+9237d0f5ca1cc97f9bc2de8a51070d844ef598c4 src/assets/Documents/Untitled-12.jpg
+978b3cc788a314acbed0ecf1669b6d3904484d95 src/assets/Documents/VERITECH.pdf
+9baccfc5fafcfe0de669ef961829245a82c015f2 src/assets/Documents/Victor mwenda mururu.docx
+6073b23eae30926a447b0bd221abcd81d1cd6885 src/assets/Documents/What is Google Ads Search.docx
+ac50196afb74add58c6204c46327627271d15ced src/assets/Documents/about.jpg
+49e046ab32910851410da9be66cad9e8b62d5ff0 src/assets/Documents/agrilly bird.docx
+564d96698f8e6eca37abe0cf914e62f0cf2d0764 src/assets/Documents/background.jpg
+37e6c089bf2346edda0c4b137882fc4fdb6a4b20 src/assets/Documents/benovalogo.jpg
+4fada084b0f091b21ece3e08ae320551b3a3b35c src/assets/Documents/bio prof.docx
+5c898d9e3af693f794807d2c5ccdc32c614580d8 src/assets/Documents/booking.jpg
+b76057c727f07e2d643e7e06f908ee0b1ba27601 src/assets/Documents/call icon.jpg
+eaeb60a44f203bfa87ae3af3b02a3ffc750126f7 src/assets/Documents/candy_nutrition (Autosaved).xlsx
+fa37fdf56d8c5198da9fa9ec9bab4e5abd641238 src/assets/Documents/cmdline-tools
+5ec1c6bffdfdec5c52bd6d6621b494ba74fd5579 src/assets/Documents/cmdline-tools/NOTICE.txt
+d2c4110be0ce2f5064af6f5ab8c3622162bba3aa src/assets/Documents/cmdline-tools/bin
+9bfd6e51a79801fdaf7ce50b1f49dea8e84c68f2 src/assets/Documents/cmdline-tools/bin/apkanalyzer.bat
+c88a3d841d59ae5ecaa9be248469b5ca2a8feee1 src/assets/Documents/cmdline-tools/bin/avdmanager.bat
+8cd6d487c4c7d33816bdddfb7515dcda954d37a1 src/assets/Documents/cmdline-tools/bin/d8.bat
+1dab38f669d4906ffa83a762c1f0f1b16a0ac827 src/assets/Documents/cmdline-tools/bin/lint.bat
+6f5f0255130f4d25bfa30a478337b22d163128ff src/assets/Documents/cmdline-tools/bin/profgen.bat
+0d122b6337aa49bcc384ae898486d33e4f95a81f src/assets/Documents/cmdline-tools/bin/r8.bat
+52afff4f4c111f3e2fb1fb8cc297078048e8e724 src/assets/Documents/cmdline-tools/bin/resourceshrinker.bat
+919e4e1e2b0bcd37d156be4b6275c8558230545c src/assets/Documents/cmdline-tools/bin/retrace.bat
+0569148276bb420a4c1b7175f17b2309b159bf0f src/assets/Documents/cmdline-tools/bin/screenshot2.bat
+49828169ea9fa5cd21f982a131d092de9005127c src/assets/Documents/cmdline-tools/bin/sdkmanager.bat
+74440e6114fb6b7dd44cdcea81f904a2848967a3 src/assets/Documents/cmdline-tools/lib
+a112c7f505523c4df2452a8fb94431dc398bb4b4 src/assets/Documents/cmdline-tools/lib/README
+881e15f57b99c87909ba076009c9c7096eccd532 src/assets/Documents/cmdline-tools/lib/analytics-library
+0b6f8143d78e68395243e62bbe8c3386f9b3ca6c src/assets/Documents/cmdline-tools/lib/analytics-library/protos
+83ec43014d2bfcc89b3e160e4c5779411b3d1de7 src/assets/Documents/cmdline-tools/lib/analytics-library/protos/src
+35b2296ee86ac39ef3f09114f53006b6c3b764f4 src/assets/Documents/cmdline-tools/lib/analytics-library/protos/src/main
+edf26e27966ab6654f1d8d54b75a88008e53a2ad src/assets/Documents/cmdline-tools/lib/analytics-library/protos/src/main/proto
+2a63a82324ed756f7b6a8da89ea17ca3b4bd5f56 src/assets/Documents/cmdline-tools/lib/analytics-library/protos/src/main/proto/proto.jar
+97083508af3661e5f2dc6513a0f8c515c6eee71e src/assets/Documents/cmdline-tools/lib/analytics-library/shared
+cd9022545e9d395d69b2d3c0fa4d1f446580e33f src/assets/Documents/cmdline-tools/lib/analytics-library/shared/tools.analytics-shared.jar
+747833b3b66df8979f1233926309de946fac93cb src/assets/Documents/cmdline-tools/lib/analytics-library/tracker
+016b40963e436f24c7a9bcbbcc219ff6e8fc2f2a src/assets/Documents/cmdline-tools/lib/analytics-library/tracker/tools.analytics-tracker.jar
+c23bcab21508845dd7f035baec407feaa82ccf0f src/assets/Documents/cmdline-tools/lib/annotations
+37bf3d4fb07bd3b9a28805d957212a7d92b69af7 src/assets/Documents/cmdline-tools/lib/annotations/annotations.jar
+fe7b806cd001dd787377f9c5a7823bf255ce5c9a src/assets/Documents/cmdline-tools/lib/apkanalyzer-classpath.jar
+67c591e7588c2d204d48bc4506013fd55a0781c7 src/assets/Documents/cmdline-tools/lib/apkparser
+3f23d9275f1f1957b0e52741c33aad63746a2e44 src/assets/Documents/cmdline-tools/lib/apkparser/analyzer
+97c17acc3acc20c169abb657ae0d25f52cdf6410 src/assets/Documents/cmdline-tools/lib/apkparser/analyzer/analyzer.jar
+2478146cda9ea630f92b9e5a39b9306fc60fcd20 src/assets/Documents/cmdline-tools/lib/apkparser/cli
+8dcde81289832e63badbe840572e5d81e4350336 src/assets/Documents/cmdline-tools/lib/apkparser/cli/analyzer-cli.jar
+e753673e46c9d967327006658032d944a62225a8 src/assets/Documents/cmdline-tools/lib/apkparser/tools.binary-resources.jar
+ffb34f950440ae6ea9008f25b0fcbfb7ddd7103a src/assets/Documents/cmdline-tools/lib/avdmanager-classpath.jar
+a6a1cad986d1dd16e45689accd60fd7c709a6b13 src/assets/Documents/cmdline-tools/lib/build-system
+60fde64e30c8bd013734253a5a04e92e0449693f src/assets/Documents/cmdline-tools/lib/build-system/aapt2-proto
+40a605ead20ee58db4f688512416c0f289068723 src/assets/Documents/cmdline-tools/lib/build-system/aapt2-proto/aapt2-proto.jar
+7fffce7dd155e75e4a83380f6392c45009773aa4 src/assets/Documents/cmdline-tools/lib/build-system/builder-model
+b3eb2eed7a7e45579f3068cf293dfffe04c97aef src/assets/Documents/cmdline-tools/lib/build-system/builder-model/builder-model.jar
+85a3c56d1e6fe03cb288ae4d28b7a8734269b4e4 src/assets/Documents/cmdline-tools/lib/build-system/shrinker
+9377d2d23ccc3745c88f975987da4b494151915c src/assets/Documents/cmdline-tools/lib/build-system/shrinker/libshrinker.jar
+7c62efac93d8f854b9657a55e43a5cc3663e949b src/assets/Documents/cmdline-tools/lib/build-system/tools.manifest-merger.jar
+9f62c9b71ea9a376a0af271a6ee2beff0c0a5b90 src/assets/Documents/cmdline-tools/lib/common
+ca8fd27196c4ca27eef0bafb3e1ec942e73a6755 src/assets/Documents/cmdline-tools/lib/common/tools.common.jar
+fbd2297c9528f0386be2f0c12435e01000a6f150 src/assets/Documents/cmdline-tools/lib/d8-classpath.jar
+26a8cfa722d2061544e0ddf1983322c3d0ed8da3 src/assets/Documents/cmdline-tools/lib/ddmlib
+629ba736099b38996de7bca96e1d75f3400e798b src/assets/Documents/cmdline-tools/lib/ddmlib/tools.ddmlib.jar
+a13e5f9f4f76c08a45e78cf08ba33e32ccd8764f src/assets/Documents/cmdline-tools/lib/device_validator
+be9dcaf2cc77f1bc6a61760e532c8e93e22efa21 src/assets/Documents/cmdline-tools/lib/device_validator/tools.dvlib.jar
+5f8f968409d0b9fbf8c1b543d726501500825ab9 src/assets/Documents/cmdline-tools/lib/external
+e327af843ae384c1a5fe777af447248fb0790200 src/assets/Documents/cmdline-tools/lib/external/archive-patcher
+579dbb1a02978c11c242d102fe234ba78970bccf src/assets/Documents/cmdline-tools/lib/external/archive-patcher/explainer.jar
+1e66de9147fae39a5360b048707f38d8ea5c6d9d src/assets/Documents/cmdline-tools/lib/external/archive-patcher/generator.jar
+de281c98a8d9b261bf5663808f19220ef7b419d8 src/assets/Documents/cmdline-tools/lib/external/archive-patcher/shared.jar
+a147209649ec89ea7195f88dc62c78f919c98bb7 src/assets/Documents/cmdline-tools/lib/external/com
+05c63c751b78014e57348a4d86aaef343673e34e src/assets/Documents/cmdline-tools/lib/external/com/android
+9c7fe0822730c06f9a86760520bc968ad79f48dc src/assets/Documents/cmdline-tools/lib/external/com/android/tools
+97e9bcd6e80646b90f8d57808798dfadef3b6fb3 src/assets/Documents/cmdline-tools/lib/external/com/android/tools/smali
+f69fc1ed1f4a9a790006eb1b2523523d8f24b27c src/assets/Documents/cmdline-tools/lib/external/com/android/tools/smali/smali-baksmali
+e10a0b965a5d40649b889f6db9b7d271e95c4304 src/assets/Documents/cmdline-tools/lib/external/com/android/tools/smali/smali-baksmali/3.0.3
+7cff7641cedf08093078f74c531ed19f1d797b1a src/assets/Documents/cmdline-tools/lib/external/com/android/tools/smali/smali-baksmali/3.0.3/smali-baksmali-3.0.3.jar
+390fa7f78fe54dd5cc15e50d72f2a49cb6a5e6dc src/assets/Documents/cmdline-tools/lib/external/com/android/tools/smali/smali-dexlib2
+3b4e4ffdb075ce509e6ccf5c76f8f97af1fabf70 src/assets/Documents/cmdline-tools/lib/external/com/android/tools/smali/smali-dexlib2/3.0.3
+48f6d37082272d0f1bcbeb9bad4f3ce2545572fd src/assets/Documents/cmdline-tools/lib/external/com/android/tools/smali/smali-dexlib2/3.0.3/smali-dexlib2-3.0.3.jar
+1f5f3f4a91d601d11a3771ccfefe46d82d5ea95b src/assets/Documents/cmdline-tools/lib/external/com/android/tools/smali/smali-util
+2c079468fdda2d7255baf63ccb7852152c404f6c src/assets/Documents/cmdline-tools/lib/external/com/android/tools/smali/smali-util/3.0.3
+40f9e92f6f60e22977493d8046e2b33fe06c6022 src/assets/Documents/cmdline-tools/lib/external/com/android/tools/smali/smali-util/3.0.3/smali-util-3.0.3.jar
+f593cf7aab373241d1b1e0e366834df44ef7dd0e src/assets/Documents/cmdline-tools/lib/external/com/beust
+b8b8d0de676d67e66843a863ac9bebc1577b5ce4 src/assets/Documents/cmdline-tools/lib/external/com/beust/jcommander
+e0288cb0b85b02c3d58dd77a571aee58b0ad992d src/assets/Documents/cmdline-tools/lib/external/com/beust/jcommander/1.78
+1d586730efd25b05e6e9194ad13c89a0108bb4db src/assets/Documents/cmdline-tools/lib/external/com/beust/jcommander/1.78/jcommander-1.78.jar
+a51b637dd9d61653ec165f8401b881c3b4890b06 src/assets/Documents/cmdline-tools/lib/external/com/google
+82871fa3c9f4fd36f35f14e52f4edf398d51faaf src/assets/Documents/cmdline-tools/lib/external/com/google/code
+a40e22e2ed3d29e2bc55be46004636d2d4ad1a80 src/assets/Documents/cmdline-tools/lib/external/com/google/code/findbugs
+8427a4ea21343a71f8466d35e66ced8558f6b7bf src/assets/Documents/cmdline-tools/lib/external/com/google/code/findbugs/jsr305
+3a8940ec1c31840d3b69643545dccf0e28e77d0e src/assets/Documents/cmdline-tools/lib/external/com/google/code/findbugs/jsr305/3.0.2
+59222d9ca5e5654f5dcf6680783d0e265baa848f src/assets/Documents/cmdline-tools/lib/external/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar
+cedda0894d4475a206ddb453972c0c22f4838982 src/assets/Documents/cmdline-tools/lib/external/com/google/code/gson
+779cf9b12308d541f9efff23b3fc729df199b9f9 src/assets/Documents/cmdline-tools/lib/external/com/google/code/gson/gson
+bfdeac770edfea515891bd7675452d41835efb47 src/assets/Documents/cmdline-tools/lib/external/com/google/code/gson/gson/2.10.1
+a88c5bd9b5f17af70ab9601a781388418e0b772f src/assets/Documents/cmdline-tools/lib/external/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar
+27c4faa68a5b154d5fd2bc13272976edfd1c058b src/assets/Documents/cmdline-tools/lib/external/com/google/errorprone
+53c4b4982d090c32263c498cb36ba5a4b852c85f src/assets/Documents/cmdline-tools/lib/external/com/google/errorprone/error_prone_annotations
+325e86f6e14d0effca32dfb4e9667bd0d5e45748 src/assets/Documents/cmdline-tools/lib/external/com/google/errorprone/error_prone_annotations/2.28.0
+43175aa6117a9822bb5b377db53d866c96e58dfd src/assets/Documents/cmdline-tools/lib/external/com/google/errorprone/error_prone_annotations/2.28.0/error_prone_annotations-2.28.0.jar
+de623e5f780297d27c758817828f014dc078a00e src/assets/Documents/cmdline-tools/lib/external/com/google/guava
+7ee4722a59b3f96dc201e092c7e396120dd20b32 src/assets/Documents/cmdline-tools/lib/external/com/google/guava/failureaccess
+23fe4d303dd6575d151e5799d549826a6d21893c src/assets/Documents/cmdline-tools/lib/external/com/google/guava/failureaccess/1.0.1
+9b56dc751c1cc7dff75ed80ccbb45f027058e8ce src/assets/Documents/cmdline-tools/lib/external/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar
+addb92a140b746cc39f6759929f0b56a22a00939 src/assets/Documents/cmdline-tools/lib/external/com/google/guava/guava
+0a7dd24ea34ad4cc11bde68621345ac78674bc0a src/assets/Documents/cmdline-tools/lib/external/com/google/guava/guava/32.0.1-jre
+5f3a1eee9475d29e1e5ffd5c13451a6b7bd18ab7 src/assets/Documents/cmdline-tools/lib/external/com/google/guava/guava/32.0.1-jre/guava-32.0.1-jre.jar
+a1700518cb6c798ec33fe29b2896b3e2f942690d src/assets/Documents/cmdline-tools/lib/external/com/google/guava/listenablefuture
+8e1a2d987a194f6b9d93693fa5fa38f54c4ea3da src/assets/Documents/cmdline-tools/lib/external/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava
+45832c052a10428a5b18613470458e1a2e0e941a src/assets/Documents/cmdline-tools/lib/external/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar
+44772b567ff567c4e1c4abe33636d60c9fe23460 src/assets/Documents/cmdline-tools/lib/external/com/google/j2objc
+7bb7f0a7d12f8225b961750291bc27879e27b63f src/assets/Documents/cmdline-tools/lib/external/com/google/j2objc/j2objc-annotations
+0f602b37522bda2d1481fcaa191f74fe209c4572 src/assets/Documents/cmdline-tools/lib/external/com/google/j2objc/j2objc-annotations/2.8
+3595c4f9be5c0ce779f8dd611e7f6917ca518f5d src/assets/Documents/cmdline-tools/lib/external/com/google/j2objc/j2objc-annotations/2.8/j2objc-annotations-2.8.jar
+0d9b925478408940b588a6cf2195a4070b72a3e7 src/assets/Documents/cmdline-tools/lib/external/com/google/jimfs
+9157f3994448c51dc3ac3efc70d3df1879679da2 src/assets/Documents/cmdline-tools/lib/external/com/google/jimfs/jimfs
+66a3dbe8c03c6afa40fcb7b276e662cafcdb69a8 src/assets/Documents/cmdline-tools/lib/external/com/google/jimfs/jimfs/1.1
+e0b16a5ff5388de1b9c5b4ee37959ee09a82e022 src/assets/Documents/cmdline-tools/lib/external/com/google/jimfs/jimfs/1.1/jimfs-1.1.jar
+56f12c8de2844ae9ea13239124f2c4a97798a085 src/assets/Documents/cmdline-tools/lib/external/com/google/protobuf
+3ba0cd828e3395d20c355d38951ab2e3d229a0c7 src/assets/Documents/cmdline-tools/lib/external/com/google/protobuf/protobuf-java
+c22f0f0381513f5fd954b55afdf8cdb84f295abf src/assets/Documents/cmdline-tools/lib/external/com/google/protobuf/protobuf-java/3.24.4
+56edbb81cb27e7fbd3e149e19db68b9de1542c9a src/assets/Documents/cmdline-tools/lib/external/com/google/protobuf/protobuf-java/3.24.4/protobuf-java-3.24.4.jar
+5f206d040142940c7a3f0e5b4e4cfe48b3624801 src/assets/Documents/cmdline-tools/lib/external/com/sun
+ef96ad48bb13b4f26c3a0dd52dd6577a4e9fad35 src/assets/Documents/cmdline-tools/lib/external/com/sun/activation
+71cc68b6c2fc8eb3bfd43474c323df18881637fc src/assets/Documents/cmdline-tools/lib/external/com/sun/activation/javax.activation
+14472e007df88cede97fc08c45b227d7346254aa src/assets/Documents/cmdline-tools/lib/external/com/sun/activation/javax.activation/1.2.0
+9637479ad2c033a9c59784cabed8fae8a4f1d880 src/assets/Documents/cmdline-tools/lib/external/com/sun/activation/javax.activation/1.2.0/javax.activation-1.2.0.jar
+0516a17e2ee1ba70bf999f833f682f55159ba419 src/assets/Documents/cmdline-tools/lib/external/com/sun/istack
+d4cf6fe89887ffbecb11faa3c5b9856a880374ae src/assets/Documents/cmdline-tools/lib/external/com/sun/istack/istack-commons-runtime
+e5f92a8ca37518d86d63ae69ffe6462fefc007ef src/assets/Documents/cmdline-tools/lib/external/com/sun/istack/istack-commons-runtime/3.0.8
+8f37e950bec36e0d8b34697ce2e9e57bb2d325cb src/assets/Documents/cmdline-tools/lib/external/com/sun/istack/istack-commons-runtime/3.0.8/istack-commons-runtime-3.0.8.jar
+6625ca6a5e4f7259ad9086fa12c0f5dd581e2325 src/assets/Documents/cmdline-tools/lib/external/com/sun/xml
+c42b60075e71959b242f98d202285c74762fd03a src/assets/Documents/cmdline-tools/lib/external/com/sun/xml/fastinfoset
+ebe3e5e9417a861c8b38e0f1f15323fc413f8137 src/assets/Documents/cmdline-tools/lib/external/com/sun/xml/fastinfoset/FastInfoset
+218299fa7b63adf608c1e128b0c9d5933a83e2d5 src/assets/Documents/cmdline-tools/lib/external/com/sun/xml/fastinfoset/FastInfoset/1.2.16
+6e91f1cec27721fd3d6b35522099cca9b686211d src/assets/Documents/cmdline-tools/lib/external/com/sun/xml/fastinfoset/FastInfoset/1.2.16/FastInfoset-1.2.16.jar
+83d9eaa7d21c475b09dcb4b6b7137d6dd4add03d src/assets/Documents/cmdline-tools/lib/external/commons-codec
+c98f8a7a6d981c2599331b6f49040abe9702037d src/assets/Documents/cmdline-tools/lib/external/commons-codec/commons-codec
+4d2ab5596744d0691448cdb74175b1b621ed663a src/assets/Documents/cmdline-tools/lib/external/commons-codec/commons-codec/1.15
+f14985ac9214db96dadcba46c0578baf55c5b347 src/assets/Documents/cmdline-tools/lib/external/commons-codec/commons-codec/1.15/commons-codec-1.15.jar
+11228821dac10043e2c9a0a061a850737c28266e src/assets/Documents/cmdline-tools/lib/external/commons-io
+79fd0a030cca11f064c10ab403450167a822fae8 src/assets/Documents/cmdline-tools/lib/external/commons-io/commons-io
+eae7e4b44f5ae4222e8f73236cd909caedccffc7 src/assets/Documents/cmdline-tools/lib/external/commons-io/commons-io/2.16.1
+eb3c2b0b82115e9820f781e944312b4c19b25ed4 src/assets/Documents/cmdline-tools/lib/external/commons-io/commons-io/2.16.1/commons-io-2.16.1.jar
+dad1d48c383b676c736e78d5c0b9bb3d90ab5862 src/assets/Documents/cmdline-tools/lib/external/commons-logging
+c43652c3105fd2501d60802dc0a7d156983a422f src/assets/Documents/cmdline-tools/lib/external/commons-logging/commons-logging
+e8730895fc0c2371277da912650419f4a32a08a7 src/assets/Documents/cmdline-tools/lib/external/commons-logging/commons-logging/1.2
+93a3b9f6db406c84e270e19b9a5e70f2e27ca513 src/assets/Documents/cmdline-tools/lib/external/commons-logging/commons-logging/1.2/commons-logging-1.2.jar
+85a200999de74430c86464779444b8fc876ac9a4 src/assets/Documents/cmdline-tools/lib/external/jakarta
+ffbba015a5b5e5bb4188ccd007ec0dd6e02db684 src/assets/Documents/cmdline-tools/lib/external/jakarta/activation
+6a846e0999ebbcc5e305b3c4f5c07e0b6e200fbb src/assets/Documents/cmdline-tools/lib/external/jakarta/activation/jakarta.activation-api
+6f8308f556a147ae62b72a059e573a2bd2869943 src/assets/Documents/cmdline-tools/lib/external/jakarta/activation/jakarta.activation-api/1.2.1
+bbfb52ff01e082afd65ee6444f2645e999f98ee0 src/assets/Documents/cmdline-tools/lib/external/jakarta/activation/jakarta.activation-api/1.2.1/jakarta.activation-api-1.2.1.jar
+0bed94f0eb7b984b22ba41caaf6a45d8f181f063 src/assets/Documents/cmdline-tools/lib/external/jakarta/xml
+0afeb0f5dbe438d549bb6dd1a62bfc7a18b61ee4 src/assets/Documents/cmdline-tools/lib/external/jakarta/xml/bind
+3cc2587fb6275b98f6b64463f54f26cf3b0796f2 src/assets/Documents/cmdline-tools/lib/external/jakarta/xml/bind/jakarta.xml.bind-api
+ddc0d9352fb12fb2f866e846fd64e6afe063446a src/assets/Documents/cmdline-tools/lib/external/jakarta/xml/bind/jakarta.xml.bind-api/2.3.2
+b16236d561c08c177f79a99e2c7a47be1f81616d src/assets/Documents/cmdline-tools/lib/external/jakarta/xml/bind/jakarta.xml.bind-api/2.3.2/jakarta.xml.bind-api-2.3.2.jar
+8cc9d857c9eed99f53dc196353e8e15d46377f6a src/assets/Documents/cmdline-tools/lib/external/javax
+e9846e999f4176de21d0d478e5a4157b3cac36b1 src/assets/Documents/cmdline-tools/lib/external/javax/inject
+8e27bf3cffa783cb639dc3ad34e4271e926e570e src/assets/Documents/cmdline-tools/lib/external/javax/inject/javax.inject
+0bb04bc3b791e077d0472e5c86de1190e54d90c2 src/assets/Documents/cmdline-tools/lib/external/javax/inject/javax.inject/1
+b2a9d0bf7bd463a6361898b36f010edd05c0cf6e src/assets/Documents/cmdline-tools/lib/external/javax/inject/javax.inject/1/javax.inject-1.jar
+2947642317f26d446dd101a84061a8d71ea303ee src/assets/Documents/cmdline-tools/lib/external/lint-psi
+36b4ad859dbf27cc7c42d1a6bb034952df6fa34c src/assets/Documents/cmdline-tools/lib/external/lint-psi/intellij-core
+f5106c0c2ef8dac2fb273411e42bbaf71b357be5 src/assets/Documents/cmdline-tools/lib/external/lint-psi/intellij-core/intellij-core-mvn.jar
+4847a572018986f5a3a93a44f2cc5226485d9e58 src/assets/Documents/cmdline-tools/lib/external/lint-psi/kotlin-compiler
+573708e152a429fca3cfb05656079943743e29e9 src/assets/Documents/cmdline-tools/lib/external/lint-psi/kotlin-compiler/kotlin-compiler-mvn.jar
+9f9b0574f4cc658d396ebc5b75094f168e84909c src/assets/Documents/cmdline-tools/lib/external/lint-psi/uast
+978593e79b1c35346f2248adc438afaec765785d src/assets/Documents/cmdline-tools/lib/external/lint-psi/uast/uast.jar
+5927fc23437ea32b49a573eeaacf0969cc129c58 src/assets/Documents/cmdline-tools/lib/external/net
+c5b158fc816c8ee768ff7ca91047caed1a4ef0c8 src/assets/Documents/cmdline-tools/lib/external/net/java
+b992d081df60c2f27cb9b36d2095a7248d5034af src/assets/Documents/cmdline-tools/lib/external/net/java/dev
+aaf5dbb99dfc844c27699acd41bd5000055a740c src/assets/Documents/cmdline-tools/lib/external/net/java/dev/jna
+18cfc678512ff15a0a7ef096d8bb8a4417a3a0ef src/assets/Documents/cmdline-tools/lib/external/net/java/dev/jna/jna-platform
+05898abe72b28d339a3f9d127fd93b2fd0322ea4 src/assets/Documents/cmdline-tools/lib/external/net/java/dev/jna/jna-platform/5.6.0
+91b263520b66d08304f8cde59673f4a7e55a48ff src/assets/Documents/cmdline-tools/lib/external/net/java/dev/jna/jna-platform/5.6.0/jna-platform-5.6.0.jar
+933713df4667af9b2a0c32b9502cb9f3d949da05 src/assets/Documents/cmdline-tools/lib/external/net/java/dev/jna/jna
+c3b661264ec5c9b5e623f2bcc3838b4ee2f0f8ed src/assets/Documents/cmdline-tools/lib/external/net/java/dev/jna/jna/5.6.0
+fda5aa4132a74590f690948512be0067d4249a6b src/assets/Documents/cmdline-tools/lib/external/net/java/dev/jna/jna/5.6.0/jna-5.6.0.jar
+8039a7bd62e2ca1f9b43c98d12a2f964bf74129d src/assets/Documents/cmdline-tools/lib/lint-classpath.jar
+4c35634311771244f6a194ed79e1ab3141128b28 src/assets/Documents/cmdline-tools/lib/profgen-classpath.jar
+2f3ab14034bc3fbfae7fbccfac26a2829d341fb6 src/assets/Documents/cmdline-tools/lib/r8.jar
+ca2ed23d703cb2c5a3b7c52d9b454914c1c530b1 src/assets/Documents/cmdline-tools/lib/resourceshrinker-classpath.jar
+3401d99ac24b6fbe46861b50004992238987fc0a src/assets/Documents/cmdline-tools/lib/screenshot2-classpath.jar
+99517e16d45db3f1b7b714b8ba2da65ee35868d9 src/assets/Documents/cmdline-tools/lib/sdkmanager-classpath.jar
+00fe44453370b5dd8480c0ab51c3438999a21132 src/assets/Documents/cmdline-tools/source.properties
+c698bd752b50f920d6ed5f576974c215670aedce src/assets/Documents/d1.jpg
+63c7cf77eb74346826108876684b0478b0d7c077 src/assets/Documents/d2.jpg
+6fbdcb87c2dc5d71194f6075ffff699a0f5f7311 src/assets/Documents/d3.jpg
+a2abca0a65c77d2963a59de055de03c10e4b1007 src/assets/Documents/design week 2.xlsx
+3c2d6c74e29dd6c68d0da3ab34bab3b9ad7deafd src/assets/Documents/design.jpg
+ecfadbeb98236fcfbac3deb0fa930ad83acc3fd2 src/assets/Documents/desktop.ini
+8471b853bcd21c2acf775a9025640dd680a88f1e src/assets/Documents/diagnostics.jpg
+737c59a6e9eb5e5305e65d3137269a4e9a9c27de src/assets/Documents/family.pl.docx
+da977a57c41592c383e066c2c81301217124c433 src/assets/Documents/first.jpg
+0a7a29d690331bf15d889c37c0106e3fc9b5a8b8 src/assets/Documents/full stack.jpg
+5a207cf10f3123bd52fe7148712c5c526cfdce06 src/assets/Documents/geoffrey assigment.docx
+10729f3feea0fcb9d43ad7e93df1f12968582f7f src/assets/Documents/gmail icon.jpg
+ca182343ed51632c00e57c61f53f72ef3f3e5d3e src/assets/Documents/hbp.pdf
+f508bff4cd85d4f96400e85dcb67726d1c2bc5fa src/assets/Documents/img7a.jpg
+affbb060bce555059c3b066e9a12c6799929d29d src/assets/Documents/img7b.jpg
+256397317e1efd736ccb22dd8ec44e9f4c7214b4 src/assets/Documents/img7c.jpg
+4f58e57f03f412a31ff00ac644e716a2caf0a74e src/assets/Documents/kcse.jpg
+a5715fa8a3c499c3d73206561735cd9586926cf6 src/assets/Documents/letter.jpg
+5c37c100a6d609a75deec9feafc57428aa46f95b src/assets/Documents/limited.jpg
+508a35464044b6716d689810afbb331026a2f168 src/assets/Documents/logo icon.jpg
+115d09099e7de4ed07368cef9beb89e9a3b0f8b4 src/assets/Documents/logo.jpg
+aa46c3f9f92e11b35dbc641ce5f9f2b50b65a8b9 src/assets/Documents/logo1.jpg
+f72aba678498dd68fd4a73d72187e6d49774773e src/assets/Documents/logoicon.jpg
+c4311fba5791e1792aef956b9867a71370579049 src/assets/Documents/map.jpg
+de2ef3d40b6d23afb0572d066a829a54dbc9f0a4 src/assets/Documents/medical practioners .docx
+338ad0d4ff2ff3c251277395024c011af5efcb24 src/assets/Documents/medical practioners .pdf
+d203fb63a296452356bb51b54936df9abe32d80c src/assets/Documents/network diagram.jpg
+faf2e5da2386b7eb44b5cf96336a45c6cccb7552 src/assets/Documents/nicodemus com 410.docx
+6f8598f6b56e17041382cafa86e4440378bd1e0e src/assets/Documents/nicodemus project report.pdf
+8efbc3253c3bd3a679d724d8679bf73ab5cf4116 src/assets/Documents/nicodemus proposal project.docx
+8cefbded660c454faf50cb463486837ac1bf7227 src/assets/Documents/nicodemus proposal project.pdf
+a33d5e53278304708b58f4b575c43dbaaa34be4f src/assets/Documents/nicodemus proposal project2.docx
+291938311c0deeaf7d20096e0772aa8a392e4d26 src/assets/Documents/nicodemus proposal project2.pdf
+91167d828481734a37f6de457659c7336e90d642 src/assets/Documents/nicodemus proposal projectt report.pdf
+cc727b346d98163a49e39d70f40e43cfb7deed84 src/assets/Documents/nicodemus proposal projectt.docx
+0dfa8d6232e02512e3de9ca514a435a4cffc24dd src/assets/Documents/nicodemus proposal projectt.pdf
+a2dea91884b06ef0b7ed9bc95496adc424514b5b src/assets/Documents/nyeri-logo.jpg
+7bdfec0bcf55a28ea88edddee7d7d40fe5a1b557 src/assets/Documents/others.xlsx
+b096d7d5f4ec0ffd92e9b2892966cf656659e9c9 src/assets/Documents/poster.jpg
+1b4a3b159aac8ad0b650f9df3f3184d11bcb38a8 src/assets/Documents/satimalogo.jpg
+1d8700e3069d1bb1bf3500fb3ac14f311ada220a src/assets/Documents/screening.jpg
+a5ff680cfe37408aff0d0751eed3a6974e56c039 src/assets/Documents/services.jpg
+b0bfc05d97feb1314d12e61eefc3bde0c39c2511 src/assets/Documents/terry.pdf
+9482fc8250c3aaf705a22a595f761c9c446030ec src/assets/Documents/tery.pdf
+f7dc45615f5d9ec1057883ee8ba8383c72681470 src/assets/Documents/to pharmacysist .docx
+25855844cb2b9fdc9aca953d0a541812d1331bf7 src/assets/Documents/to pharmacysist .pdf
+2c1d519aa7e44263626ef8e326d5125ad37c22f4 src/assets/Documents/values.docx
+664b962743f6271fe4fd9711412df6354254aa40 src/assets/Documents/vic.jpg
+b187f09f18e702399519dc93552a368adf02a114 src/assets/Documents/video1.mp4
+7a09d15cae528b92b819ffdef03783557b56f035 src/assets/Documents/video2.mp4
+9b012528932c7947d9af52386681f9c43ec7b895 src/assets/Documents/video3.mp4
+366f84a176145d463ac7edbeef609f17e0c3bedb src/assets/Documents/web1.jpg
+dc66a6e55b177a4a9fcc90fa38d2741c85e6c0c9 src/assets/Documents/welcome.jpg
+7102c96319202a1346b54a14aac4b8c823357353 src/assets/Documents/yeee.docx
+a401b4d2c9f529c8077e98e4adeb59fba82d3e20 src/assets/Documents/~$ ML DS.docx
+a65d0df99cfd3b0ffc2ec61c5a789deb4aaab441 src/assets/Documents/~$ PHASE 1.docx
+f8acf93647fa316e4ddb07e4444633d6f60f7cdf src/assets/Documents/~$ATIMA2.docx
+6f58b7a6948f5c0fcc113fd91dbefd43f760fff0 src/assets/Documents/~$GNATE AI PROPOSAL.docx
+31199012a49d3a28fc8030258291d90e66997bd2 src/assets/Documents/~$HENI RESUME.docx
+ced1842830965a86a9d6341614768c4756a8b487 src/assets/Documents/~$HENI TRIP.docx
+ac2a4fd4c70a011e392a88772bbfe6a0dd63e310 src/assets/Documents/~$K2.docx
+628a9e5f4cbaa124e5283530b76d468f83111a27 src/assets/Documents/~$RATINA UNIVERSITY ATTACHMENT REPORT.docx
+c74f68066cb0e23f38a31d14ca6f5ad8b12d0f89 src/assets/Documents/~$RATINA UNIVERSITY project report.docx
+d86bef89552c49e2980f5c6cdfaa4f513677329e src/assets/Documents/~$SUME AI.docx
+beef42af448c91586ab144761ac5ec7a01e0c873 src/assets/Documents/~$TIMA PROPOSAL.docx
+4db73d1321f9133428b5391be453dc6724ad595e src/assets/Documents/~$TIMA guidance.docx
+4aed01ed82bf794c8ef787ea027c2f181108cc3a src/assets/Documents/~$at is Google Ads Search.docx
+60cd4e7ee57d900909971058638029bf45ab3686 src/assets/Documents/~$codemus proposal project.docx
+9c734aff6ec5a258115d9d44efefb53b8b6f0fa3 src/assets/Documents/~$codemus proposal project2.docx
+d498d7a5d59c895bb41a1586a577c1348e625b00 src/assets/Documents/~$codemus proposal projectt.docx
+bed960f6e281ed964189021f9bd418d96d3aba70 src/assets/Documents/~$codemus_Muimi_Malombe_Resume.docx
+cf9caaa508153089c7907f3d8fe6ae5d94c4b5e3 src/assets/Documents/~$ctor mwenda mururu.docx
+4b969bc4ce2251ed11e50b35e8fdec23b05146d5 src/assets/Documents/~$r_lab_persons[1]-_GI[1].docx
+0538284559983aed4b462d6615558ce39235053c src/assets/Documents/~$tima Digital Marketing Roadmap.docx
+02d0ddb61ac9fd6322906a34e4c3b06bec9504ae src/assets/Documents/~$tima LinkedIn post.docx
+f7f6aa002c44a2e06a3d2a3fd94b367609aba039 src/assets/Documents/~$tima core values.docx
+ba6668352af5ad1cfbe2e11b752e9a0c0a13b47c src/assets/Documents/~WRL2264.tmp
+0891c47bb09854ad41a7aa25d36b4988d31de0d8 src/assets/Documents/~WRL3628.tmp
+0a643de590ae34fe6de5eea8750d511c45659bae src/assets/Documents/🎨 Beginner Figma Practice Projects.docx
+9147b427f4e3367ede837456402637d2fcd0eb39 src/assets/Documents/🚀 PHASE 1.docx
+e134f1fffdf4d639eada7ce86580c8056d15048a src/assets/Documents/🚀 PHASE 2.docx
+331b8a795b12ef0ed959e346bc987f10d6b98b8e src/assets/IT.jpg
+ac0c9c688986fd54cce5323b3c90583ed47b9849 src/assets/ai.jpg
+08f486cadf16b76744fd4e769fa5bab4a123cbe7 src/assets/backend.jpg
+0e897bccef3cde0267d1fb38ea5a2b1ad0628d9e src/assets/background.jpeg
+15f523896c8c59d74a84aee83c8ac40105af3d41 src/assets/church-poster.jpg
+2e92f760d4f8f9d8a50d570894e6c670eb77af29 src/assets/company-logo.png
+916b160579cfc2ee3058e91f38d2d0402dcb39e7 src/assets/company-poster.jpg
+a072edf7801585b50956706ed3cf2d9cbfd35eba src/assets/contact.jpeg
+1274b3b3eb9c76f77990d1ed1817b9045ef7e95b src/assets/digitalMarketing.jpg
+9a8ad73bf717fea2a24089669678346ed9b4e451 src/assets/graphic.jpg
+14046aba9bafa290278a5a4bc4364a412588f166 src/assets/health-poster.jpg
+84130a99258cd122ca131316d5aea909d6f6627e src/assets/kaheni.jpg
+de2624c95770835d0f6fdc86e50710d3d37a3daf src/assets/prize.jpg
+1c69a3d153c6e608b283f20402af62e745f18629 src/assets/seo.jpg
+8527df2bade2f9c0b55616944dde42189ad0fba0 src/assets/social.jpg
+ec2585e8c0bb8188184ed1e0703c4c8f2a8419b0 src/index.css
+d563c0fb10ba0e42724b21286eb546ee4e5734fc src/index.js
+9dfc1c058cebbef8b891c5062be6f31033d7d186 src/logo.svg
+5253d3ad9e6be6690549cb255f5952337b02401d src/reportWebVitals.js
+8f2609b7b3e0e3897ab3bcaad13caf6876e48699 src/setupTests.js
+8c65e2246019cc676fff7ee3642d7eb7542e65c1 
+0dc3c9d1f81a33ea16b68e45a584bf5b0706336a src
+2cbc3c2f18c93c9f4af7c36e9979df22affde401 src/App.js
+a0b786f1e057aa556b796d4e4faef0b64dd5e8e2 src/Home.css
+79e33ba0b1592e67c2bcddd035365955756856fc src/Home.js
+abd72dc01d1e533cffcefb60deafaef210c4f8c1 src/Navbar.js
+b18bd66a1d69ac964f0c0044bed12ccc45f6edea src/assets
+0ce058c512407bc9229715fd76c7e804b943bd54 src/assets/data.jpg
+42744e97e3a61831eaa713e361e90f085dd74808 src/assets/frontend.jpg
+69f93c4a67461595d822bcc034da1a96b79d31a4 src/assets/uiux.jpg
+b4d61a38f6c5971bcfb35fe93b3175370144af6f 
+090cb658181c36a5fd1d052eb1b2cea236121cce src
+344f30c9e4afea73a13157ff63c5a30b41a6782b src/Projects.css
+3091781f5a5a83450d0229a4bc285dbdc6e68fe9 src/Projects.js
+d304124df66b9f198bf4d76f2ef0463d1197be36 
+6d10d3ac5b05f6214ee492842b387704459a6c16 src
+ba4def17fd1e3db2e85487b1e3b82eb40fe6cb08 src/Projects.css
+2d04997454a07ada61139504b332613d8f40d64f src/Projects.js
+dae98c04a7d3cb38d3b50fae8c8efb3908ebd886 
+f5608da35b07a5e127d4508551732ea58b19ea77 src
+42f9042cc1db717ff70c6376cfd20fbf60538712 src/App.js
+edd0736bc4f155b47c193d52d37c42c13c769c3b src/Footer.css
+f7a874a1680de32928f68874012b0f75fc640fa2 src/Navbar.js
+7bda49af925b3344b5711758316c73b5398f9af7 src/Projects.css
+2f58b68f5ea3efcff0dc35278b9c838c2c73d2dd src/Projects.js
+c2a8343bbb3e243273b55164ca467d6826a120d0 src/assets
+08c93af4ef4e841f7dc37e55abc25bbbdc1d536b 
+c968e064df03bc44e4b34d0671cb641f94521324 src
+ce6054ec7c54e86267c721f7788ecac0e41bf4c1 src/About.js
+66e58bbad916b683084678de9c6d83560706a5b0 src/Footer.js
+427aac5ff0eaabacfe976f24d09c9d11e6e96e7e src/Home.css
+b9239fc0c2f945d089ac4d3ec0e9f42575018ed7 src/Home.js
+acb239507058c5bf7752c47705108f61c54affab src/Projects.js
+be75b05bf49f7b90952e0bbf1ebc1e3feacd5210 src/assets
+ae24de2d0461fa28e481c056db03e922146a4ab6 
+d4bfb7ea71c4faa82c50ef8ecc05f8c613f7fb54 src
+21d4a416f53e261119a637ce6aa1fc2df7d48e38 src/Contact.css
+86ed2192709830670c4f99ea77b91f9116dea870 
+e634d45ae6b64fada3c5488c6999b21ad9c2c717 src
+f3f8b72fd4babf3cb6a895f73484c7cfd557e084 src/Contact.css
+1b026dd76d2aa3780e55e45cea248af1e5e5994a 
+fe56fd4da078c6bf8dfbc5e9c7e0b7c6152e5156 src
+8bbc04bc876c0a12a1abc732031158715866bb57 src/Contact.css
+cfec6c6ea065f1df36e5c32b5850a0aec0e72a64 src/Contact.js
+56a0f05f822bec0a47de3915b85361b8b55505b5 
+5698bccc2a09c104daa5bddf297d6ed6045ca2b5 src
+d0d70a54594c7c37e1e66d05d8d7d7e52723e15f src/App.js
+1b6238d0cac141d82b6a3a5a1569172e5fb6d0f4 src/Contact.css
+b1fa0bed4db8c2a6fde839c5686d410053fa6646 src/Contact.js
+2c0f0008d3d7063db0c65537ac6744cfb0a9e494 
+905bbed577d2f3a4c377afe5a4c188ca1aff580d src
+b2a48a48473307ea1ce498a24759821d3b9f93ff src/About.css
+8d2ae40328a23dccbe316ad558f0683cbd5a6bec src/About.js
+d0acff47df2112c20c95bcec42d86c1e2088f151 src/Contact.css
+3e15cc01b628e53ea9ee6957efc856936e43a16e src/Contact.js
+6191472d9e30bd08bab5dba93ef92a35014547b2 src/Footer.css
+803e24b5098ebe36369134f4d54d00e18d458981 src/Footer.js
+a77282adb0f2f26746d517c823a97b2dca2c0a54 src/Home.css
+56df84cb5fd59fc056e124db145eab63075f7224 src/Home.js
+2b06b7075c2373df68d8fe56afa95e6e1b743ce4 src/Navbar.css
+5d4f7f062a980967a94d2cfcb799c7b73428c9cf src/Navbar.js
+48488fa3df620156a2f9b7f69f42c168caf7ab50 src/Projects.css
+3fa1d784719a72e21c60e524fe1f4ec02131f8b8 src/Projects.js
+e3cb0853660e43ccf2e4cc5adb5b24e56984f7f6 src/Skills.css
+7840e723a530b13c8465b6f2191bbdcd5fbd3b70 src/Skills.js
+a1bdcf87b930672b5d04be3f1060962497da76ee src/assets
+1156d22e7ab448bd37dbc118600d41cf6325a04d src/assets/background.jpeg
+8cafeb56c3a562ab81abda8b02b5653978225bbf src/assets/education.jpeg
+af1a9ad5152a1a59e86152225bda2f3de05158ef src/assets/experience.jpeg
+f30eb01dc3407ce575307d789e2d2ff3e5aae563 src/assets/goals.jpeg
+a22a1a7c676b7ce0a0086cb0150b2b2e1b421485 src/assets/homepage.jpeg
+c8de89dd4b040167548fb537e5af32b782e7a372 src/assets/homepage.jpg
+3652a599ece9213df33a49026b2376d9d6759c00 src/assets/passion.jpeg
+931d8ebc83f74e65fe9e022430632f19e455795b src/assets/skills.jpeg
+bcbb004c8597f5deec97b5508937212e61ea8d39 
+210458a35c77b8484031b13d6cbf754e6511a41e src
+db9bf57bb0a6c9266a3d90508e8346e38ea4d438 src/About.js
+d2cfd407c66b704f819511b83e2253b110546e85 src/Contact.css
+f6321409dcd46e838ca8427a89de24474fbc8292 src/Home.css
+119d4dd21c31847126156eb1f07eed990f7bdab9 
+98e067eaa6c4794964dc93c1229ae09868067a5c src
+dbed8c1448fe5f1f89503766ea20a539b7592053 src/About.css
+8b569b610b39ae3c385a393398a07c04c1dd3494 src/About.js
+74b5e053450a48a6bdb4d71aad648e7af821975c src/App.css
+029629491c1f284bccbe025df5efd9995eda1a60 src/App.js
+8ac550c2c68aad4d93c0990ae1344f28d12efa07 src/Contact.css
+0f789d73b920c11e7ef9d75214e9a9c92161911d src/Home.css
+eaa5c6b436d8ccf8aeeaa0de6a36df845f1a1e40 src/Home.js
+25bd99f09385e4b61130dbbf128fce4f5cb1c89d src/Projects.css
+6f40ca8935b1ae305c484e4ff40abcca7f15eefa src/Skills.css
+9657dd31ce098474e4696b711b7b5e0c2fd59c05 src/assets
+11d646c5c96ca651a5de63bb3639573df6d64f7d src/assets/experience.jpeg
+d68746fd44b3295f205e983a37a4e20d35d4522e src/assets/goals.jpeg
+08bab0a12dcdc853134bf30c7027985831ed13c3 src/assets/passion.jpeg
+c04273dec23a3d01bc9f1bd5f499315c346f1b31 src/assets/skills.jpeg
+592597048a0026f7c2bd9c95c601478c13be2d41 
+d9a6c38c7ce02c6fd0b2b63c29f6b898378c20a7 package-lock.json
+6ddd62f709e1aaa08aa306067d5b86ed77766b5f package.json
+c9d05627d5427c031b1f7d949fba2cee3ec58caa src
+a214ccf985729e007e9e974b86168fb66d7452eb src/About.css
+3400abb05bf6139ae39a31fda73c7f73d806091b src/About.js
+9a0bca6c0c05fecd11e13cab1303df1dd1c2b60f src/Contact.js
+b7a09bf5bf6397f2513f2f7668d5b9b5c3a9c8a8 src/Footer.js
+f59e2d5a44a7f0f9420c324019453be14bdb3e55 
+58beeaccd87e230076cab531b8f418f40b6d1aeb README.md
