@@ -107,162 +107,49 @@
 }
 
 
-/* ===========================
-   Expertise section
-   =========================== */
-   .expertise-section {
-  padding: 60px 20px;
-  text-align: center;
-  background-color: #121212f3; 
-}
-
-.section-title {
-  font-size: 2rem;
-  color: #007bff;
-  margin-bottom: 10px;
-}
-
-.section-intro {
-  font-size: 1.1rem;
-  color: #333;
-  margin-bottom: 40px;
-}
-
-/* Grid layout */
-.expertise-grid {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 30px;
-}
-
-@media (min-width: 768px) {
-  .expertise-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@media (min-width: 992px) {
-  .expertise-grid {
-    grid-template-columns: repeat(4, 1fr);
-  }
-}
-
-/* Card */
-.expertise-card {
-  background-color: #121212f3; 
-  padding: 20px;
-  border-radius: 12px;
-  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.08);
-  text-align: center;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.expertise-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
-}
-
-/* Dropdown Button */
-.expertise-btn {
-  width: 100%;
-  padding: 12px 15px;
-  font-size: 1rem;
-  font-weight: 500;
-  background-color: white;
-  color: #121212f3;
-  border: none;
-  border-radius: 8px;
-  cursor: pointer;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.expertise-btn:hover {
-  background-color: #0056b3;
-}
-
-.arrow {
-  transition: transform 0.3s ease;
-}
-
-.arrow.open {
-  transform: rotate(180deg);
-}
-
-/* Tools inline display */
-.tools-inline {
-  margin-top: 15px;
-  font-size: 0.95rem;
-  color: #333;
-  text-align: center;
-}
-
-.tools-inline span {
-  display: inline;
-  margin: 0 5px;
-}
-
-
 
 footer {
     margin-top: auto; /* Push the footer to the bottom */
 }
 
-/* ===========================
-   Achievements Section Styles
-   =========================== */
-.achievements-section {
-  padding: 60px 20px;
+
+
+
+.contact-section {
   text-align: center;
-  background-color: #121212f3; 
+  padding: 4rem 2rem;
+  background: #121212f3; 
+  border-radius: 12px;
+  margin: 4rem 0;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
 }
 
-.section-title {
+.contact-section .section-title {
   font-size: 2rem;
-  margin-bottom: 10px;
-  color: white;
+  margin-bottom: 1rem;
+  color: #007bff;
 }
 
-.section-intro {
+.contact-section .section-intro {
   font-size: 1.1rem;
   color: white;
-  margin-bottom: 40px;
+  max-width: 700px;
+  margin: 0 auto 2rem;
+  line-height: 1.6;
 }
 
-.image-grid {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 30px;
-  justify-content: center;
+.contact-button {
+  display: inline-block;
+  padding: 0.8rem 1.6rem;
+  background-color: #25d366; /* WhatsApp green */
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-radius: 50px;
+  text-decoration: none;
+  transition: background 0.3s ease;
 }
 
-.image-card {
-  background-color: #121212f3; 
-  border-radius: 12px;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-  padding: 20px;
-  width: 280px;
-  transition: transform 0.3s ease;
-}
-
-.image-card:hover {
-  transform: translateY(-5px);
-}
-
-.image-card img {
-  width: 100%;
-  height: auto;
-  border-radius: 8px;
-  margin: 15px 0;
-}
-
-.image-card h3 {
-  color: white;
-  font-size: 1.2rem;
-}
-
-.image-card p {
-  color: white;
-  font-size: 0.95rem;
+.contact-button:hover {
+  background-color: #1ebc5d;
 }

@@ -25,6 +25,7 @@ const Navbar = () => {
         <li className="nav-item"><Link to="/" className="nav-link">Home</Link></li>
         <li className="nav-item"><Link to="/about" className="nav-link">About</Link></li>
         <li className="nav-item"><Link to="/projects" className="nav-link">Projects</Link></li>
+        <li className="nav-item"><Link to="/certifications" className="nav-link">Certifications</Link></li>
         
 
         {/* Contact + Social Icons Grouped */}

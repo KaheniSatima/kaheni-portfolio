@@ -2,10 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './Home.css';
 import homepageImage from './assets/IT.jpg'; 
-import frontendImage from './assets/frontend.jpg';
 import aiImage from './assets/ai.jpg';
-import dataImage from './assets/data.jpg';
-import uiuxImage from './assets/uiux.jpg';
 import graphicImage from './assets/graphic.jpg';
 import socialImage from './assets/social.jpg';
 import backendImage from './assets/backend.jpg';
@@ -13,9 +10,6 @@ import seoImage from './assets/seo.jpg';
 import digitalMarketingImage from './assets/digitalMarketing.jpg';
 
 
-import prizeImage from './assets/prize.jpg';
-import kcseImage from './assets/kcse.jpg';
-import recommendationImage from './assets/letter.jpg';
 import Footer from './Footer';
 
 const Home = () => {
@@ -38,89 +32,74 @@ const Home = () => {
 
       <hr style={{ border: '4px solid red', margin: '2rem 0' }} />
 
-      {/* What I Do Section */}
-      <section className="what-i-do-section">
-        <h2 className="section-title">What I Do</h2>
-        <p className="section-intro">
-          These are the key areas where I apply my skills to deliver value and innovative solutions.
-        </p>
-        <div className="skills-grid">
-          <div className="skill-card">
-            <img src={frontendImage} alt="Frontend Development" className="skill-image" />
-            <h3>Frontend Development</h3>
-            <p>Building responsive, modern, and interactive web interfaces using React, HTML, CSS, and JavaScript.</p>
-          </div>
-          <div className="skill-card">
-  <img src={backendImage} alt="Backend Development" className="skill-image" />
-  <h3>Backend Development</h3>
-  <p>Building robust server-side applications using Python, Flask, and Django RestAPI to handle data and business logic efficiently.</p>
-</div>
-          <div className="skill-card">
-            <img src={aiImage} alt="AI/ML" className="skill-image" />
-            <h3>AI/ML</h3>
-            <p>Creating intelligent models that solve real-world problems and provide actionable insights.</p>
-          </div>
-          <div className="skill-card">
-            <img src={dataImage} alt="Data Science & Analytics" className="skill-image" />
-            <h3>Data Science & Analytics</h3>
-            <p>Analyzing complex data to discover trends, forecast outcomes, and support strategic decisions.</p>
-          </div>
-          <div className="skill-card">
-            <img src={uiuxImage} alt="UI/UX Design" className="skill-image" />
-            <h3>UI/UX Design</h3>
-            <p>Designing intuitive and visually appealing user interfaces to enhance user experience.</p>
-          </div>
-          <div className="skill-card">
-            <img src={graphicImage} alt="Graphic Design" className="skill-image" />
-            <h3>Graphic Design</h3>
-            <p>Creating compelling visuals and graphics to communicate messages effectively and creatively.</p>
-          </div>
-          <div className="skill-card">
-            <img src={socialImage} alt="Social Media Management" className="skill-image" />
-            <h3>Social Media Management</h3>
-            <p>Planning, creating, and managing content to grow engagement and brand presence online.</p>
-          </div>
-          
 
-<div className="skill-card">
-  <img src={seoImage} alt="Search Engine Optimization" className="skill-image" />
-  <h3>Search Engine Optimization (SEO)</h3>
-  <p>Improving website visibility and ranking on search engines through keyword research, on-page SEO, backlinking, and analytics.</p>
-</div>
+<section className="what-i-do-section">
+  <h2 className="section-title">What I Do</h2>
+  <p className="section-intro">
+    These are the key areas where I apply my skills to deliver value and innovative solutions.
+  </p>
+  <div className="skills-grid">
+    <div className="skill-card">
+      <img src={backendImage} alt="Software Development" className="skill-image" />
+      <h3>Software Development</h3>
+      <p>Designing and developing high-quality software solutions that solve real-world problems, drive business growth, and deliver efficiency, scalability, and long-term value.</p>
+    </div>
 
-<div className="skill-card">
-  <img src={digitalMarketingImage} alt="Digital Marketing" className="skill-image" />
-  <h3>Digital Marketing</h3>
-  <p>Planning and executing online marketing campaigns using Google Ads, email marketing, content marketing, and analytics for optimized results.</p>
-</div>
+    <div className="skill-card">
+      <img src={aiImage} alt="AI/ML Specialist" className="skill-image" />
+      <h3>AI/ML Specialist</h3>
+      <p>Developing AI and machine learning solutions that transform data into actionable insights, automate complex processes, and drive smarter business decisions.</p>
+    </div>
 
-        </div>
-      </section>
+    <div className="skill-card">
+      <img src={seoImage} alt="Web Design & Development" className="skill-image" />
+      <h3>Web Design & Development</h3>
+      <p>Designing and developing responsive, high-performing websites that blend modern aesthetics with seamless functionality to deliver exceptional user experiences and measurable business results.</p>
+    </div>
 
-      <hr style={{ border: '4px solid red', margin: '2rem 0' }} />
+    <div className="skill-card">
+      <img src={graphicImage} alt="Graphic Design" className="skill-image" />
+      <h3>Graphic Design</h3>
+      <p>Creating impactful visuals and branding materials that capture attention, strengthen brand identity, and communicate ideas with creativity and precision.</p>
+    </div>
 
-      {/* Achievements Section */}
-      <section className="achievements-section">
-        <h2 className="section-title">My Achievements & Recognition</h2>
-        <p className="section-intro">A few milestones that reflect my academic and personal journey.</p>
-        <div className="image-grid">
-          <div className="image-card">
-            <img src={recommendationImage} alt="University Recommendation" />
-            <h3>University Recommendation</h3>
-            <p>A recommendation letter from my university showcasing my skills and integrity.</p>
-          </div>
-          <div className="image-card">
-            <img src={prizeImage} alt="Prize Award" />
-            <h3>Prize Giving Award</h3>
-            <p>Received in recognition of outstanding academic excellence and leadership.</p>
-          </div>
-          <div className="image-card">
-            <img src={kcseImage} alt="KCSE Certificate" />
-            <h3>KCSE Certificate</h3>
-            <p>My official Kenya Certificate of Secondary Education results.</p>
-          </div>
-        </div>
-      </section>
+    <div className="skill-card">
+      <img src={socialImage} alt="Social Media Management" className="skill-image" />
+      <h3>Social Media Management</h3>
+      <p>Strategically managing and growing social media presence by creating engaging content, boosting audience interaction, and driving measurable brand growth.</p>
+    </div>
+
+    <div className="skill-card">
+      <img src={digitalMarketingImage} alt="Digital Marketing" className="skill-image" />
+      <h3>Digital Marketing</h3>
+      <p>Planning and executing data-driven digital marketing campaigns through SEO, Google Ads, email, and content marketing to maximize visibility, conversions, and ROI.</p>
+    </div>
+  </div>
+</section>
+
+
+<hr style={{ border: '4px solid red', margin: '2rem 0' }} />
+
+      <section className="contact-section">
+  <h2 className="section-title">Let’s Connect</h2>
+  <p className="section-intro">
+    I’d love to hear from you! Whether you’re interested in my services, hiring me, 
+    collaborating on exciting projects, or simply saying hello — feel free to reach out. 
+    Let’s build something impactful together.
+  </p>
+
+  <a
+    href="https://wa.me/254799090598"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="contact-button"
+  >
+    💬 Contact Me on WhatsApp
+  </a>
+</section>
+
+
+      
 
       <Footer />
     </>

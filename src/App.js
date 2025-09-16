@@ -4,7 +4,7 @@ import Navbar from './Navbar';
 import Home from './Home';
 import About from './About';
 import Projects from './Projects';
-import Resume from './Resume';
+import Certifications from './Certifications';
 import Contact from './Contact';
 
 const App = () => {
@@ -16,7 +16,7 @@ const App = () => {
                     <Route path="/" element={<Home />} />
                     <Route path="/about" element={<About />} />
                     <Route path="/projects" element={<Projects />} />
-                    <Route path="/resume" element={<Resume />} />
+                    <Route path="/certifications" element={<Certifications />} />
                     <Route path="/contact" element={<Contact />} />
                 </Routes>
             </div>
